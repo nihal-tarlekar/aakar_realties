@@ -1,0 +1,697 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner-caption h1{
+    line-height: 1;
+}
+.img-about-details{
+    width: 100%;
+}
+.about-details-1 h6 {
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #BCBCBC;
+    padding-left: 10%;
+}
+.about-bg {
+    top: 48%;
+}
+.img-about-details-hr {
+    position: absolute;
+    height: 40%;
+    left: 21.5%;
+    margin-top: 5%;
+    border-left: 1px solid #707070;
+}
+.about-caption {
+    padding-bottom: 8%;
+}
+/* journey */
+
+.journey-caption h3{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 48px;
+    color: #fff;
+}
+.journey-caption p{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 14px;
+    color: #BCBCBC;
+}
+.img-journey{
+    width: 40%;
+}
+.journey-details-1 h5{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 10%;
+    color: #BCBCBC;
+}
+.journey-details-1 p{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 12px;
+    padding-right: 20%;
+    color: #BCBCBC;
+}
+.journey-details{
+    padding-top: 5%;
+}
+.journey-caption{
+    padding-left: 12%;
+}
+.img-journey-hr {
+    position: absolute;
+    height: 45%;
+    margin-top: -2%;
+    border-left: 1px solid #707070;
+    margin-left: -2.5%;
+}
+/* vision mission */
+.vision-mission{
+    padding-top: 8%;
+}
+.vision-mission-caption-2{
+    padding-left: 8%;
+}
+.vision-mission-caption-2 h4{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+}
+.vision-mission-caption-2 h4:nth-last-child(2){
+    margin-top: 10%;
+}
+.vision-mission-caption-2 p{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    padding-top: 2%;
+    color: #989898;
+}
+.img-vs-ms-hr {
+    width: 200%;
+    margin-left: 18%;
+    margin-top: 8%;
+}
+.connect {
+    margin-top: -5%;
+}
+/* responsive */
+@media (max-width: 2560px){
+    .img-banner-hr {
+        height: 46%;
+    }
+    .img-about-details-hr {
+        left: 27%;
+    }
+    .about-bg {
+        top: 18%;
+    }
+    .img-journey-hr {
+        height: 40%;
+        margin-top: -1%;
+        margin-left: -2.5%;
+    }
+    .vision-mission-caption-1 hr{
+        width: 58%;
+    }
+    .vision-mission-caption-1 h3{
+        font-size: 48px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 26px;
+    }
+    .vision-mission-caption-2 p {
+        font-size: 16px;
+    }
+    .img-vs-ms-hr {
+        width: 160%;
+        margin-left: 28%;
+        margin-top: 8%;
+    }
+}
+@media (max-width: 1920px){
+    .img-banner-hr {
+        height: 28%;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    .about-details-1 h6 {
+        font-size: 26px;
+    }
+    .about-bg {
+        top: 30%;
+    }
+    .img-journey-hr {
+        height: 50%;
+        margin-top: -1%;
+        margin-left: -3.7%;
+    }
+    .journey-caption h3 {
+        font-size: 50px;
+    }
+    .journey-caption p {
+        font-size: 16px;
+    }
+    .journey-details-1 h5 {
+        font-size: 22px;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 46px;
+    }
+    .vision-mission {
+        padding-top: 5%;
+    }
+
+}
+@media (max-width: 1600px){
+    .img-banner-hr {
+        height: 24%;
+        margin-top: 1%;
+        margin-left: 3.1%;
+    }
+    .img-about-details-hr {
+        left: 23%;
+    }
+    .about-details-1 h6 {
+        font-size: 25px;
+    }
+    .about-bg {
+        top: 40%;
+    }
+    .img-journey-hr {
+        height: 58%;
+        margin-top: -1%;
+        margin-left: -5%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 44px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 24px;
+    }
+    .vision-mission-caption-2 p {
+        font-size: 15px;
+    }
+    .img-vs-ms-hr {
+        width: 186%;
+        margin-left: 20%;
+        margin-top: 8%;
+    }
+}
+@media (max-width: 1440px){
+    .img-banner-hr {
+        height: 22%;
+        margin-top: 1%;
+        margin-left: 3.6%;
+    }
+    .about-bg {
+        top: 45%;
+    }
+    .img-journey-hr {
+        height: 60%;
+        margin-top: -1%;
+        margin-left: -5.8%;
+    }
+    .vision-mission-caption-1 hr {
+        width: 50%;
+    }
+}
+@media (max-width: 1366px){
+    .img-banner-hr {
+        height: 22%;
+        margin-top: 1%;
+        margin-left: 3.8%;
+    }
+    .journey-caption h3 {
+        font-size: 48px;
+    }
+    .journey-caption p {
+        font-size: 14px;
+    }
+    .journey-details-1 h5 {
+        font-size: 20px;
+    }
+    .journey-caption p {
+        font-size: 12px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 22px;
+    }
+    .vision-mission-caption-2 p {
+        font-size: 14px;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 40px;
+    }
+    .vision-mission-caption-1 hr {
+        width: 42%;
+    }
+    .img-vs-ms-hr {
+        width: 220%;
+        margin-left: 20%;
+        margin-top: 8%;
+    }
+    .address-details {
+        margin-top: 5%;
+    }
+}
+@media (max-width: 1280px){
+    .about-details-1 h6 {
+        font-size: 24px;
+    }
+    .img-journey-hr {
+        height: 42%;
+        margin-top: -1%;
+        margin-left: -6.5%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 38px;
+    }
+    .vision-mission-caption-1 hr {
+        width: 40%;
+    }
+}
+@media (max-width: 1280px) and (max-height: 780px){
+    .img-journey-hr {
+        height: 56%;
+        margin-top: -1%;
+        margin-left: -6.5%;
+    }
+}
+@media (max-width: 1280px) and (max-height: 680px){
+    .img-journey-hr {
+        height: 65%;
+        margin-top: -1%;
+        margin-left: -6.5%;
+    }
+}
+@media (max-width: 1240px){
+    .img-banner-hr {
+        height: 22%;
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    .img-about-details-hr {
+        left: 22.5%;
+    }
+    .about-details-1 h6 {
+        font-size: 23px;
+    }
+    .journey-caption h3 {
+        font-size: 46px;
+    }
+    .img-journey-hr {
+        height: 50%;
+        margin-top: -1%;
+        margin-left: -6.9%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 36px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1152px){
+    .img-banner-hr {
+        height: 22%;
+        margin-top: 1%;
+        margin-left: 4.5%;
+    }
+    .img-about-details-hr {
+        left: 28%;
+    }
+    .about-details-1 h6 {
+        font-size: 22px;
+    }
+    .journey-caption h3 {
+        font-size: 42px;
+    }
+    .img-journey-hr {
+        height: 48%;
+        margin-top: -1%;
+        margin-left: -5.3%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 34px;
+    }
+    .img-vs-ms-hr {
+        width: 220%;
+        margin-left: 24%;
+        margin-top: 8%;
+    }
+}
+@media (max-width: 1024px) and (max-height: 1366px){
+    .img-banner-hr {
+        height: 22%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .img-about-details-hr {
+        left: 27%;
+    }
+    .about-details-1 h6 {
+        font-size: 22px;
+    }
+    .journey-caption h3 {
+        font-size: 36px;
+    }
+    .img-journey-hr {
+        height: 31%;
+        margin-top: -1%;
+        margin-left: -6%;
+    }
+    .journey-caption p {
+        font-size: 11px;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 1024px){
+    .img-journey-hr {
+        height: 50%;
+        margin-top: -1%;
+        margin-left: -6%;
+    }
+    .about-details-1 h6 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 800px){
+    .img-banner-hr {
+        height: 20%;
+        margin-top: 1%;
+        margin-left: 4.5%;
+    }
+    .img-about-details-hr {
+        left: 31%;
+        height: 35%;
+    }
+    .about-details-1 h6 {
+        font-size: 16px;
+    }
+    .journey-caption h3 {
+        font-size: 34px;
+    }
+    .img-journey-hr {
+        height: 45%;
+        margin-top: -1%;
+        margin-left: -5.8%;
+    }
+    .img-journey {
+        width: 32%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 28px;
+    }
+    .vision-mission-caption-1 hr {
+        width: 58%;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 18px;
+    }
+    .vision-mission-caption-2 p {
+        font-size: 13px;
+    }
+    .img-vs-ms-hr {
+        width: 250%;
+        margin-left: 25%;
+        margin-top: 8%;
+    }
+}
+@media (max-width: 768px){
+    .img-journey-hr {
+        height: 56%;
+        margin-top: -1%;
+        margin-left: -5.8%;
+    }
+}
+@media (max-width: 480px){
+    .img-banner-hr {
+        height: 30%;
+        margin-top: 5%;
+        margin-left: 9%;
+    }
+    .banner-caption h1 {
+        line-height: 0.9;
+    }
+    .img-about-details-hr {
+        left: 12%;
+        height: 150%;
+    }
+    .no-padd{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .about-details-1{
+        padding-left: 22%;
+    }
+    .about-details-1 h6 {
+        font-size: 18px;
+        line-height: 1.4;
+        padding-right: 10%;
+        padding-top: 10%;
+    }
+    .journey-caption {
+        padding-left: 30%;
+        padding-right: 5%;
+    }
+    .journey-caption h3 {
+        font-size: 28px;
+    }
+    .journey-caption p {
+        font-size: 18px;
+        line-height: 1.4;
+        padding-top: 10%;
+    }
+    .img-journey {
+        width: 54%;
+    }
+    .journey-details-1 h5 {
+        font-size: 23px;
+    }
+    .journey-details-1 p{
+        font-size: 12px;
+        margin-bottom: 15%;
+        padding-right: 0%;
+    }
+    .img-journey-hr {
+        height: 155%;
+        margin-top: -90%;
+        margin-left: -19%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 30px;
+    }
+    .vision-mission-caption-1 hr {
+        width: 25%;
+    }
+    .vision-mission{
+        position: relative;
+    }
+    .img-vs-ms-hr {
+        position: absolute;
+        width: 44%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+    .vision-mission-caption-2 {
+        padding-left: 30%;
+        padding-top: 10%;
+        padding-right: 5%;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 26px;
+    }
+    .vision-mission-caption-2 p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .sub-footer{
+        margin-top: 10%;
+    }
+}
+@media (max-width: 414px){
+    .about {
+        margin-top: 60%;
+    }
+    .about-details-1 h6, .journey-caption p, .vision-mission-caption-2 p {
+        font-size: 17px;
+    }
+    .journey-caption h3 {
+        font-size: 26px;
+    }
+    .journey-details-1 h5 {
+        font-size: 20px;
+    }
+    .journey-details-1 p {
+        font-size: 12px !important;
+    }
+    .img-journey-hr {
+        height: 150%;
+        margin-top: -115%;
+        margin-left: -19%;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 24px;
+    }
+    .img-vs-ms-hr {
+        position: absolute;
+        width: 54%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+    .sub-footer {
+        margin-top: 15%;
+    }
+}
+@media (max-width: 412px){
+    .about {
+        margin-top: 70%;
+    }
+    .img-journey-hr {
+        height: 196%;
+        margin-top: -115%;
+        margin-left: -19%;
+    }
+    .about-details-1 h6, .journey-caption p, .vision-mission-caption-2 p {
+        font-size: 16px;
+    }
+    .journey-caption h3 {
+        font-size: 24px;
+    }
+    .journey-details-1 h5 {
+        font-size: 18px;
+    }
+    .journey-details-1 p {
+        font-size: 11px !important;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 28px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 21px;
+    }
+}
+@media (max-width: 393px){
+    .img-journey-hr {
+        height: 163%;
+        margin-top: -115%;
+        margin-left: -19%;
+    }
+    .img-vs-ms-hr {
+        position: absolute;
+        width: 52%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 384px){
+    .about {
+        margin-top: 64%;
+    }
+    .about-details-1 h6, .journey-caption p, .vision-mission-caption-2 p {
+        font-size: 15px;
+    }   
+    .journey-caption h3 {
+        font-size: 22px;
+    }
+    .journey-details-1 h5 {
+        font-size: 17px;
+    }
+    .img-journey-hr {
+        height: 190%;
+        margin-top: -115%;
+        margin-left: -19%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 26px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 20px;
+    }
+    .img-vs-ms-hr {
+        position: absolute;
+        width: 48%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 375px){
+    .about-details-1 h6, .journey-caption p, .vision-mission-caption-2 p {
+        font-size: 14px;
+    }
+    .journey-caption h3 {
+        font-size: 21px;
+    }
+    .img-journey-hr {
+        height: 144%;
+        margin-top: -115%;
+        margin-left: -19%;
+    }
+    .img-vs-ms-hr {
+        width: 46%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 360px){
+    .img-journey-hr {
+        height: 185%;
+        margin-top: -115%;
+        margin-left: -19%;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 24px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 18px;
+    }
+    .img-vs-ms-hr {
+        position: absolute;
+        width: 53%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 320px){
+    .about {
+        margin-top: 60%;
+    }
+    .about-details-1 h6, .journey-caption p, .vision-mission-caption-2 p {
+        font-size: 14px;
+    }
+    .journey-caption h3 {
+        font-size: 20px;
+    }
+    .journey-details-1 h5 {
+        font-size: 16px;
+    }
+    .journey-details-1 p {
+        font-size: 10px !important;
+    }
+    .vision-mission-caption-1 h3 {
+        font-size: 22px;
+    }
+    .vision-mission-caption-2 h4 {
+        font-size: 16px;
+    }
+    .img-vs-ms-hr {
+        position: absolute;
+        width: 56%;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+}

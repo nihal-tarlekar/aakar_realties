@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2D2D2D;
+}
+.navigation{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.img-logo{
+    width: 60%;
+}
+/* menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    font-family: 'Heebo';
+    font-weight: 300;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #fff;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .img-menu{
+      width: 80%;
+      margin-left: 152%;
+  }
+  /* banner */
+  .banner{
+      position: relative;
+  }
+  .img-banner{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 62%;
+      z-index: 9;
+  }
+  .banner-caption {
+      position: relative;
+      color: #fff;
+      padding-top: 9%;
+      z-index: 10;
+  }
+  .banner-caption h1{
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 0.8;
+  }
+  .banner-caption h4{
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 44px;
+  }
+  .banner-caption p{
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 1.5;
+    padding-top: 1%;
+  }
+  .banner-btn{
+      margin-top: 9%;
+  }
+  .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan{
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 15px 22px;
+    color: #fff;
+    border: 1px solid #707070;
+    background-color: transparent;
+  }
+  .btn-project:hover, .btn-knowmore:hover, .btn-prj:hover, .btn-prj-1:hover, .btn-smt:hover, .btn-project-1:hover, .btn-floor-plan:hover{
+      background-color: #707070;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  .img-right-arrow{
+      width: 6%;
+  }
+  .img-banner-hr {
+    border-left: 1px solid #707070;
+    position: absolute;
+    height: 20%;
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+}
+  /* about */
+  .about{
+      position: relative;
+      margin-top: 10%;
+  }
+  .about-caption{
+    position: relative;
+    z-index: 11;
+    padding-bottom: 11%;
+  }
+  .about-top-line{
+      width: 5px;
+      height: 50%;
+      background-color: #707070;
+  }
+  .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3{
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  .about-caption-2 h2, .application-heading{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 46px;
+    margin-bottom: 12%;
+    color: #fff;
+  }
+  
+  .about-caption-2 h5, .thank-you h6{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 36px;
+    color: #989898;
+  }
+  .about-caption-2 p{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 16px;
+    color: #989898;
+  }
+  .about-caption-1 hr, .project-caption-1 hr, .connect-caption-1 hr, .vision-mission-caption-1 hr, .about-project-caption-1 hr, .highlights-caption-1 hr, .amenities-caption-1 hr, .specification-caption-1 hr, .gallery-caption-1 hr{
+      width: 45%;
+      border: 0.5px solid #707070;
+      margin-top: 0.4rem;
+      margin-bottom: 0.4rem;
+  }
+  
+  .img-about-hr {
+    border-left: 1px solid #707070;
+    position: absolute;
+    height: 97%;
+    margin-left: 15.55%;
+} 
+  .img-about{
+    width: 45%;
+    margin-bottom: 15%;
+  }
+  .img-about-1{
+    width: 60%;
+  }
+  .about-bg{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+  }
+  .about-btn{
+    margin-top: 10%;
+  }
+  /* project */
+  .project-caption-2 h2, .connect-caption-2 h2{
+    font-family: 'barlowregular';
+    font-size: 28px;
+    color: #fff;
+  }
+  .img-project, .img-project-overlay-1, .img-project-overlay-2, .img-project-overlay-3{
+    width: 100%;
+  }
+  .img-project-overlay-1, .img-project-overlay-2, .img-project-overlay-3{
+    display: none;
+  }
+  .coral-prj:hover .img-project-overlay-1{
+    display: block;
+    transition: 0.3s;
+  }
+  .indigo-prj:hover .img-project-overlay-2{
+    display: block;
+    transition: 0.3s;
+  }
+  .sapphire-prj:hover .img-project-overlay-3{
+    display: block;
+    transition: 0.3s;
+  }
+  .sapphire-prj:hover .img-project, .coral-prj:hover .img-project, .indigo-prj:hover .img-project{
+    display: none;
+    transition: 0.3s;
+  }
+  .project-details{
+    border: 0.5px solid #707070;
+  }
+  .project-details-1{
+    padding: 10% 10%;
+  }
+  .project-details h3{
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    color: #43B9FF;
+  }
+  .project-details hr{
+    border: 0.5px solid #707070;
+  }
+  .project-details p{
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 14px;
+    color: #BCBCBC;
+  }
+  .btn-prj, .btn-prj-1{
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 0.5px solid #707070;
+  }
+  .btn-prj-1{
+    margin-top: 7.5%;
+  }
+  .prj-right{
+    width: 7%;
+  }
+  .project-slider{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 14;
+  }
+  
+  /* connect */
+  .connect{
+    position: relative;
+    margin-top: 10%;
+  }
+  .address h4, .contact-form h4{
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: 22px;
+    color: #fff;
+  }
+  .address p, .address p a, .address-1 p, .address-1 p a{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.3;
+    padding-top: 2%;
+    color: #BCBCBC;
+  }
+  .social-media p, .map p{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 8%;
+    color: #BCBCBC;
+  }
+  .img-social{
+    width: 9%;
+  }
+  .img-social-1{
+    width: 11%;
+  }
+  .address-details{
+    margin-top: 8%;
+  }
+  .address-caption-1{
+    margin-left: 20%;
+  }
+  .form-control, .frm-box{
+    color: #707172;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+    border-radius: 0px;
+    margin-top: 2%;
+    padding: 15px 5px;
+  }
+ .ddStampdutyvalue{
+  padding: .375rem .75rem;
+ }
+  ::placeholder{
+    font-family: 'Heebo'!important;
+    font-weight: normal !important;
+    font-size: 1rem;
+    color: #707172 !important;
+  }
+  .form-control:focus{
+    color: #fff;
+    background-color: transparent;
+    border-color: #707070;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+  }
+  .btn-smt{
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    margin-top: 10%;
+    border: 1px solid #707070;
+    background-color: transparent;
+    color: #fff;
+  }
+  .btn-smt:hover{
+    background-color: #707070;
+  }
+  .submit-arrow{
+    width: 6%;
+  }
+  .img-connect-hr{
+    position: absolute;
+    width: 37%;
+    margin-left: 3.55%;
+    margin-top: 8%;
+  }
+  form{
+    margin-top: 5%;
+  }
+  .sub-footer p, .sub-footer p a{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 14px;
+    color: #707070;
+  }
+  .sub-footer p{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+  }
+  
+  /* thank you */
+  .thank-you h6{
+    text-align: center;
+    padding-top: 5%;
+  }
+  .frm-box{
+    font-family: 'Heebo';
+    font-weight: normal;
+    width: 100%;
+  }
+  .frm-box:focus{
+    border: 1px solid#707070;
+  }
+  form .career-form{
+    margin-top: 0% !important;
+  }
+  .application-heading{
+    margin-top: 5%;
+  }
+  .application-heading, .career-form{
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  .career-btn{
+    margin-top: 3%;
+  }
+  .career-lft-btn{
+    text-align: left;
+  }
+

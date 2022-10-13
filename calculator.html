@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aakar Realities</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="font/stylesheet.css">
+        <link rel="stylesheet" href="assets/custom.css">
+        <link rel="stylesheet" href="assets/responsive.css">
+        <link rel="stylesheet" href="assets/calculator.css">
+        <link rel="icon" href="images/homepage/favicon.png">
+        <!-- <script src="assets/calculator.js"></script> -->
+        <script type="text/javascript" language="javascript">
+            function calculateArea() {
+                //alert("function called");
+                var count = 20;
+                var factor = new Array();
+                factor[1] = 1; //sq.ft
+                factor[2] = 0.0930000000000000000; //sq.mts
+                factor[3] = 0.1111111111111000000; //sq.yards
+                factor[4] = 0.0000229566300000000; //acres
+                factor[5] = 0.0000092904166000000; //hectares
+                factor[6] = 0.0000573921030000000; //bigha1
+                factor[7] = 0.000002869605100000; //biswa1
+                factor[8] = 0.000036730946000000; //bigha2
+                factor[9] = 0.000001836547300000; //biswa2
+                factor[10] = 0.00138888890000000; //kottah
+                //factor[11]= 0.00018521194000000;//kanal
+                //factor[12]= 0.00000926059690000;//marla
+                factor[11] = 0.00000926059690000; //kanal
+                factor[12] = 0.00018521194000000; //marla
+                factor[13] = 0.00041666667000000; //ground
+                factor[14] = 0.00229600000000000; //cent
+                factor[15] = 0.01389088900000000; //aankadam
+                factor[16] = 0.00367242010000000; //perch
+                factor[17] = 0.00009181050300000; //rood
+                factor[18] = 0.00091827364554640; //guntha
+                factor[19] = 0.002222222222222223; //chatak
+                factor[20] = 0.00092936802973000; //are
+                var element = new Array();
+                element[1] = document.getElementById("txtSqrFeet").value;
+                element[2] = document.getElementById("txtSqrMeter").value;
+                element[3] = document.getElementById("txtSqrYard").value;
+                element[4] = document.getElementById("txtAcres").value;
+                element[5] = document.getElementById("txtHect").value;
+                element[6] = document.getElementById("txtBigha1").value;
+                element[7] = document.getElementById("txtBiswa1").value;
+                element[8] = document.getElementById("txtBigha2").value;
+                element[9] = document.getElementById("txtBiswa2").value;
+                element[10] = document.getElementById("txtKottah").value;
+                element[11] = document.getElementById("txtKanal").value;
+                element[12] = document.getElementById("txtMarla").value;
+                element[13] = document.getElementById("txtGrounds").value;
+                element[14] = document.getElementById("txtCents").value;
+                element[15] = document.getElementById("txtAanKadam").value;
+                element[16] = document.getElementById("txtPerch").value;
+                element[17] = document.getElementById("txtRood").value;
+                element[18] = document.getElementById("txtGuntha").value;
+                element[19] = document.getElementById("txtChataks").value;
+                element[20] = document.getElementById("txtAres").value;
+                var firstvalue = 0, position = 0, nullcount = 0;
+                if ($('.txtbox').hasClass("kcACFormRowSelInp")) {
+                    alert("Please First Clear the Textbox")
+                    //return
+                }
+                for (var i = 1; i <= count; i++) {
+                    if (element[i] != null && element[i].length != 0) {
+                        if ($('.txtbox').hasClass("kcACFormRowSelInp")) { } else {
+                            $('.txtbox').removeClass("kcACFormRowSelInp");
+                            $('.txt' + i).addClass("kcACFormRowSelInp");
+                        }
+                        if (i == 1 && element[2] != "") {
+                            var parsecheck = "" + parseFloat(element[i]);
+                        }
+                        if (parseFloat(element[i]) == 0 || parsecheck == "NaN") {
+                            window.alert("Please Enter a Non-Zero Number");
+                        }
+                        firstvalue = element[i] / factor[i];
+                        position = i;
+                        value = element[i];
+                        break;
+                    }
+                    else {
+                        nullcount = nullcount + 1
+                    }
+                    if (nullcount == count) {
+                        window.alert("Please enter a value.")
+                        return
+                    }
+                }
+                if (firstvalue == 0) {
+                    clearForm1();
+                }
+                document.getElementById("txtSqrFeet").value = firstvalue * factor[1];
+                document.getElementById("txtSqrMeter").value = firstvalue * factor[2];
+                document.getElementById("txtSqrYard").value = firstvalue * factor[3];
+                document.getElementById("txtAcres").value = firstvalue * factor[4];
+                document.getElementById("txtHect").value = firstvalue * factor[5];
+                document.getElementById("txtBigha1").value = firstvalue * factor[6];
+                document.getElementById("txtBiswa1").value = firstvalue * factor[7];
+                document.getElementById("txtBigha2").value = firstvalue * factor[8];
+                document.getElementById("txtBiswa2").value = firstvalue * factor[9];
+                document.getElementById("txtKottah").value = firstvalue * factor[10];
+                document.getElementById("txtKanal").value = firstvalue * factor[11];
+                document.getElementById("txtMarla").value = firstvalue * factor[12];
+                document.getElementById("txtGrounds").value = firstvalue * factor[13];
+                document.getElementById("txtCents").value = firstvalue * factor[14];
+                document.getElementById("txtAanKadam").value = firstvalue * factor[15];
+                document.getElementById("txtPerch").value = firstvalue * factor[16];
+                document.getElementById("txtRood").value = firstvalue * factor[17];
+                document.getElementById("txtGuntha").value = firstvalue * factor[18];
+                document.getElementById("txtChataks").value = firstvalue * factor[19];
+                document.getElementById("txtAres").value = firstvalue * factor[20];
+                if (document.getElementById("txtSqrFeet").value < 0.00000001) {
+                    document.getElementById("txtSqrFeet").value
+                }
+                if (document.getElementById("txtSqrMeter").value < 0.00000001) {
+                    document.getElementById("txtSqrMeter").value = "0";
+                }
+                if (document.getElementById("txtSqrYard").value < 0.00000001) {
+                    document.getElementById("txtSqrYard").value = "0";
+                }
+                if (document.getElementById("txtAcres").value < 0.00000001) {
+                    document.getElementById("txtAcres").value = "0";
+                }
+                if (document.getElementById("txtHect").value < 0.00000001) {
+                    document.getElementById("txtHect").value = "0";
+                }
+                if (document.getElementById("txtBigha1").value < 0.00000001) {
+                    document.getElementById("txtBigha1").value = "0";
+                }
+                if (document.getElementById("txtBiswa1").value < 0.00000001) {
+                    document.getElementById("txtBiswa1").value = "0";
+                }
+                if (document.getElementById("txtBigha2").value < 0.00000001) {
+                    document.getElementById("txtBigha2").value = "0";
+                }
+                if (document.getElementById("txtBiswa2").value < 0.00000001) {
+                    document.getElementById("txtBiswa2").value = "0";
+                }
+                if (document.getElementById("txtKottah").value < 0.00000001) {
+                    document.getElementById("txtKottah").value = "0";
+                }
+                if (document.getElementById("txtKanal").value < 0.00000001) {
+                    document.getElementById("txtKanal").value = "0";
+                }
+                if (document.getElementById("txtMarla").value < 0.00000001) {
+                    document.getElementById("txtMarla").value = "0";
+                }
+                if (document.getElementById("txtGrounds").value < 0.00000001) {
+                    document.getElementById("txtGrounds").value = "0";
+                }
+                if (document.getElementById("txtCents").value < 0.00000001) {
+                    document.getElementById("txtCents").value
+                }
+                if (document.getElementById("txtAanKadam").value < 0.00000001) {
+                    document.getElementById("txtAanKadam").value = "0";
+                }
+                if (document.getElementById("txtPerch").value < 0.00000001) {
+                    document.getElementById("txtPerch").value = "0";
+                }
+                if (document.getElementById("txtRood").value < 0.00000001) {
+                    document.getElementById("txtRood").value = "0";
+                }
+                if (document.getElementById("txtGuntha").value < 0.00000001) {
+                    document.getElementById("txtGuntha").value = "0";
+                }
+                if (document.getElementById("txtChataks").value < 0.00000001) {
+                    document.getElementById("txtChataks").value
+                }
+                if (document.getElementById("txtAres").value < 0.00000001) {
+                    document.getElementById("txtAres").value = "0";
+                }
+                if (document.getElementById("txtSqrFeet").value > 9999999999) {
+                    document.getElementById("txtSqrFeet").value = "-";
+                }
+                if (document.getElementById("txtSqrMeter").value > 9999999999) {
+                    document.getElementById("txtSqrMeter").value = "-";
+                }
+                if (document.getElementById("txtSqrYard").valu > 9999999999) {
+                    document.getElementById("txtSqrYard").valu = "-";
+                }
+                if (document.getElementById("txtAcres").value > 9999999999) {
+                    document.getElementById("txtAcres").value = "-";
+                }
+                if (document.getElementById("txtHect").value > 9999999999) {
+                    document.getElementById("txtHect").value = "-";
+                }
+                if (document.getElementById("txtBigha1").value > 9999999999) {
+                    document.getElementById("txtBigha1").value = "-";
+                }
+                if (document.getElementById("txtBiswa1").value > 9999999999) {
+                    document.getElementById("txtBiswa1").value = "-";
+                }
+                if (document.getElementById("txtBigha2").value > 9999999999) {
+                    document.getElementById("txtBigha2").value = "-";
+                }
+                if (document.getElementById("txtBiswa2").value > 9999999999) {
+                    document.getElementById("txtBiswa2").value = "-";
+                }
+                if (document.getElementById("txtKottah").value > 9999999999) {
+                    document.getElementById("txtKottah").value = "-";
+                }
+                if (document.getElementById("txtKanal").value > 9999999999) {
+                    document.getElementById("txtKanal").value = "-";
+                }
+                if (document.getElementById("txtMarla").value > 9999999999) {
+                    document.getElementById("txtMarla").value = "-";
+                }
+                if (document.getElementById("txtGrounds").value > 9999999999) {
+                    document.getElementById("txtGrounds").value = "-";
+                }
+                if (document.getElementById("txtCents").value > 9999999999) {
+                    document.getElementById("txtCents").value = "-";
+                }
+                if (document.getElementById("txtAanKadam").value > 9999999999) {
+                    document.getElementById("txtAanKadam").value
+                }
+                if (document.getElementById("txtPerch").value > 9999999999) {
+                    document.getElementById("txtPerch").value = "-";
+                }
+                if (document.getElementById("txtRood").value > 9999999999) {
+                    document.getElementById("txtRood").value = "-";
+                }
+                if (document.getElementById("txtGuntha").value > 9999999999) {
+                    document.getElementById("txtGuntha").value = "-";
+                }
+                if (document.getElementById("txtChataks").value > 9999999999) {
+                    document.getElementById("txtChataks").value = "-";
+                }
+                if (document.getElementById("txtAres").value > 9999999999) {
+                    document.getElementById("txtAres").value = "-";
+                }
+            }
+            function clearForm1() {
+                document.getElementById("txtSqrFeet").value = "";
+                document.getElementById("txtSqrMeter").value = "";
+                document.getElementById("txtSqrYard").value = "";
+                document.getElementById("txtAcres").value = "";
+                document.getElementById("txtHect").value = "";
+                document.getElementById("txtBigha1").value = "";
+                document.getElementById("txtBiswa1").value = "";
+                document.getElementById("txtBigha2").value = "";
+                document.getElementById("txtBiswa2").value = "";
+                document.getElementById("txtKottah").value = "";
+                document.getElementById("txtKanal").value = "";
+                document.getElementById("txtMarla").value = "";
+                document.getElementById("txtGrounds").value = "";
+                document.getElementById("txtCents").value = "";
+                document.getElementById("txtAanKadam").value = "";
+                document.getElementById("txtPerch").value = "";
+                document.getElementById("txtRood").value = "";
+                document.getElementById("txtGuntha").value = "";
+                document.getElementById("txtChataks").value = "";
+                document.getElementById("txtAres").value = "";
+            }
+            function redirecalc() {
+                if ($('.ddlcalc').val() == 1) {
+                    window.location.href = "emi-calculator.aspx";
+                } if ($('.ddlcalc').val() == 2) {
+                    window.location.href = "stampduty-calculator.aspx";
+                } if ($('.ddlcalc').val() == 3) {
+                    window.location.href = "area-calculator.aspx";
+                }
+            }
+        
+            function isNumberKey(evt) {
+                var charCode = (evt.which) ? evt.which : event.keyCode
+                if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57))
+                    return false;
+        
+                return true;
+            }
+        
+            function StampDuty() {
+               var prop_value = $("#txtPropertyValue").val();
+               var s_optval = $("#ddStampdutyvalue").val();
+               var StateVal = $("#ddStampdutyvalue").val();
+               if ($("#ddStampdutyvalue").val() == "Select") {
+                   alert("Select State");
+                   $("#ddStampdutyvalue").focus();
+                   return false;
+               }
+               if ((StateVal == "0.05") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.0825") && (prop_value < 150000)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than  150000")
+                   return false;
+               }
+               if ((StateVal == "0.13") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.080") && (prop_value < 1000)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than  1000")
+                   return false;
+               }
+               if ((StateVal == "0.075") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.125") && (prop_value < 1000)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than  1000")
+                   return false;
+               }
+               if ((StateVal == "0.0800") && (prop_value < 1000)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than  1000")
+                   return false;
+               }
+               // if ((StateVal=="Karnataka") && (prop_value==0)){
+               // $("#txtPropertyValue").focus();
+               // alert("Property Value cannot be Zero .")
+               // return false;
+               // }
+               if ((StateVal == "0.085") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.075") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.07") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.0750") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.147") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.06") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.10") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.08") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.05") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.145") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if ((StateVal == "0.07") && (prop_value == 0)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be greater than Zero.")
+                   return false;
+               }
+               if (isNaN(prop_value)) {
+                   $("#txtPropertyValue").focus();
+                   alert("Property Value should be Numeric.");
+                   return false;
+               }
+               // Calculating Maharashtra
+               if ((StateVal == "0") && (prop_value <= 500000)) {
+                   var mh = 8750
+                   $("#txtStampDuty").val(Math.round(mh));
+               }
+               else if ((StateVal == "0") && (prop_value > 500000)) {
+                   var mh = 0.05 * prop_value
+                   $("#txtStampDuty").val(Math.round(mh));
+               }
+               //calculating Karnataka
+               else if ((StateVal == "Karnataka") && (prop_value <= 500000)) {
+                   var ka = 0.04 * prop_value
+                   $("#txtStampDuty").val(Math.round(ka));
+               }
+               else if ((StateVal == "Karnataka") && ((prop_value > 500000) && (prop_value <= 1500000))) {
+                   var ka = ((0.06 * (prop_value - 500000)) + 20000)
+                   $("#txtStampDuty").val(Math.round(ka));
+               }
+               else if ((StateVal == "Karnataka") && (prop_value > 1500000)) {
+                   var ka = ((0.08 * (prop_value - 1500000)) + 80000)
+                   $("#txtStampDuty").val(Math.round(ka));
+               }
+               //calculating Meghalaya
+               else if ((StateVal == "0") && (prop_value <= 50000)) {
+                   var me = (0.046 * prop_value)
+                   $("#txtStampDuty").val(Math.round(me));
+               }
+               else if ((StateVal == "0") && (prop_value >= 50000) && (prop_value <= 90000)) {
+                   var me = ((0.06 * (prop_value - 50000)) + 2300)
+                   $("#txtStampDuty").val(Math.round(me));
+               }
+               else if ((StateVal == "0") && (prop_value >= 90000) && (prop_value <= 150000)) {
+                   var me = ((0.08 * (prop_value - 90000)) + 4700)
+                   $("#txtStampDuty").val(Math.round(me));
+               }
+               else if ((StateVal == "0") && (prop_value >= 150000)) {
+                   var me = ((0.099 * (prop_value - 150000)) + 9500)
+                   $("#txtStampDuty").val(Math.round(me));
+               }
+               else {
+                   var sd = s_optval * prop_value
+                   $("#txtStampDuty").val(Math.round(sd));
+               }
+               return false;
+           }
+        
+           function emptyvalue() {
+               document.getElementById('txtStampDuty').value = "";
+               document.getElementById('txtPropertyValue').value = "";
+           }
+           function redirecalc() {
+               if ($('.ddlcalc').val() == 1) {
+                   window.location.href = "emi-calculator.aspx";
+               } if ($('.ddlcalc').val() == 2) {
+                   window.location.href = "stampduty-calculator.aspx";
+               } if ($('.ddlcalc').val() == 3) {
+                   window.location.href = "area-calculator.aspx";
+               }
+           }
+        
+        
+        
+           function numDifferentiation(val) {
+                if(val >= 10000000) val = (val/10000000).toFixed(2) + ' Cr';
+                else if(val >= 100000) val = (val/100000).toFixed(2) + ' L';
+                return val;
+            }
+           function calculateEmi() {
+                var principal = $('#principal').val();
+                var interest = ($('#interest').val())/1200;
+                var term = ($('#years').val())*12;
+                $('.emi-info').show();
+                if(principal != '' && interest != '' && term != '') {
+                    var emi = principal * interest / (1 - (Math.pow(1/(1 + interest), term)));
+                    var emi = Math.round(emi);
+                    $('.emi-info .emi').html(emi);
+                }
+            }
+        
+            function checkEmiEligibility() {
+                var principal = $('#loan_principal').val();
+                var interest = ($('#loan_interest').val())/1200;
+                var term = ($('#loan_years').val())*12;
+        
+                var salary = $('#net_income').val();
+                
+                var curLoan = $('#curr_emi').val();
+                var netIncome = salary - curLoan;
+        
+                var emi = principal * interest / (1 - (Math.pow(1/(1 + interest), term)));
+                var max_loan = Math.round((netIncome/2)*(1 - (Math.pow(1/(1 + interest), term)))/interest);
+                var emi = Math.round(emi);
+                
+                $('.eligibility-info').show();
+                if((netIncome/2) < emi){
+                    $('.eligibility-info .max-loan b.amt').html(numDifferentiation(max_loan));
+                    $('.eligibility-info .max-loan b.emi').html((netIncome/2));
+                    $('.eligibility-info .cur-loan').hide();
+                    $('.eligibility-info h4').html('<i class="fa fa-times btn-danger"></i> You are not eligible for this loan amount.');
+                } else {
+                    $('.eligibility-info .cur-loan b.amt').html(numDifferentiation(principal));
+                    $('.eligibility-info .cur-loan b.emi').html(emi);
+                    $('.eligibility-info .max-loan b.amt').html(numDifferentiation(max_loan));
+                    $('.eligibility-info .max-loan b.emi').html((netIncome/2));
+                    $('.eligibility-info .cur-loan').show();
+                    $('.eligibility-info h4').html('<i class="fa fa-check btn-success"></i> You are eligible for this loan amount.');
+                }
+            }
+        </script>
+        
+    </head>
+    <body>
+        <!-- navigation -->
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/homepage/logo.png" class="img-logo" alt="logo"></a>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about-us.html">About Us</a>
+                        <a href="project.html">Projects</a>
+                        <a href="calculator.html">Smart Cal</a>
+                        <a href="career.html">Career</a>
+                        <a href="contact.html">Contact Us</a>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/homepage/menu.svg" class="img-menu" alt="menu"></span>
+                </div>
+                </div>
+            </nav>
+        </div>
+        <!-- calculator -->
+        <section class="franchise-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <div role="tabpanel">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item d-none d-sm-block">
+                                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Stamp Duty</a>
+                                </li>
+                                <li class="nav-item d-block d-sm-none">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Stamp<br>Duty</a>
+                                  </li>
+                                <li class="nav-item d-none d-sm-block">
+                                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">EMI Calculator</a>
+                                </li>
+                                <li class="nav-item d-block d-sm-none">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">EMI<br>Calculator</a>
+                                  </li>
+                                <li class="nav-item d-none d-sm-block">
+                                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Loan Eligibility</a>
+                                </li>
+                                <li class="nav-item d-block d-sm-none">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Loan<br>Eligibility</a>
+                                  </li>
+                            </ul>
+                              <div class="tab-content bdr-style" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <h3>Stamp Duty</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <form action="#" method="post">
+                                                        <div class="form-group">
+                                                            <label>State :</label>
+                                                            <select id="ddStampdutyvalue" class="ddStampdutyvalue form-control" onchange="emptyvalue();" class="textarea inpt">
+                                                                <option value="Select" selected="selected">Select Option</option>
+                                                                <option value="0.05">AndhraPradesh</option>
+                                                                <option value="0.0825">Assam</option>
+                                                                <option value="0.13">Delhi</option>
+                                                                <option value="0.080">Goa</option>
+                                                                <option value="0.075">Gujarat</option>
+                                                                <option value="0.125">Haryana</option>
+                                                                <option value="0.0800">HimachalPradesh</option>
+                                                                <option value="0.085">Kerala</option>
+                                                                <option value="0.075">MadhyaPradesh</option>
+                                                                <option value="0.07">Maharashtra</option>
+                                                                <option value="0.07">Manipur</option>
+                                                                <option value="0">Meghalaya</option>
+                                                                <option value="0.0750">Nagaland</option>
+                                                                <option value="0.147">Orissa</option>
+                                                                <option value="0.06">Punjab</option>
+                                                                <option value="0.10">Rajasthan</option>
+                                                                <option value="0.08">TamilNadu</option>
+                                                                <option value="0.05">Tripura</option>
+                                                                <option value="0.145">UttarPradesh</option>
+                                                                <option value="0.07">West Bengal</option>
+                                                            </select>
+                                                            <span style="color:Red;">*</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Property Value :</label>
+                                                            <input type="text" id="txtPropertyValue" maxlength="45" onkeypress="return isNumberKey(event)" class=" form-control inpt" /> INR
+                                                            <span style="color:Red;">*</span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>
+                                                                Stamp Duty Payable :
+                                                            </label>
+                                                            <input type="text" id="txtStampDuty" disabled="disabled" maxlength="45" class="form-control inpt" /> INR
+                                                        </div>
+                                                        <button type="submit" name="Calculate" value="Calculate" id="Calculate" class="btn btn-secondary btn-eligibilty inpt" onclick="return StampDuty();">Calculate</button>
+                                                        <button type="submit" name="Clear" value="Clear" id="Clear" class="btn btn-secondary btn-eligibilty inpt" onclick="return emptyvalue();">Clear</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <h3 class="title-calci">EMI Calculator</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <form id="homeLoans" style="margin-bottom: 0;">
+                                                        <div class="form-group">
+                                                            <label class="inpt">Home Loan Required </label>
+                                                            <input class="form-control inpt" type="text" id="principal" name="principal" value="2000000" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="inpt">Loan Tenure (in years)</label>
+                                                            <input class="form-control inpt" type="text" value="20" id="years" name="years" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="inpt">Rate of interest</label>
+                                                            <input class="form-control loan-interest" value="10" type="text" id="interest" name="interest" required>
+                                                        </div>
+                                                        <button type="button" class="btn btn-secondary btn-eligibilty inpt" onclick="calculateEmi();">Calculate</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="emi-info">
+                                                <h3>Monthly EMI</h3>
+                                                <h4><i class="fa fa-rupee"></i> <span class="emi">18300</span></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">
+                                                    <h3 class="title-calci" id="tabs1-html">Check Loan Eligibility</h3>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="inpt">Home Loan Required <i class="fa fa-inr" aria-hidden="true"></i>
+                                                        </label>
+                                                        <input class="form-control inpt" type="text" id="loan_principal" name="loan_principal" value="2000000">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="inpt">Net income per month <i class="fa fa-inr" aria-hidden="true"></i></label>
+                                                        <input class="form-control inpt" value="50000" type="text" id="net_income" name="net_income">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="inpt">Existing loan commitments <i class="fa fa-inr" aria-hidden="true"></i></label>
+                                                        <input class="form-control inpt" type="text" value="5000" id="curr_emi" name="curr_emi">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="inpt">Loan Tenure (in years)</label>
+                                                        <input class="form-control inpt" type="text" value="20" id="loan_years" name="loan_years">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="inpt">Rate of interest %</label>
+                                                        <input class="form-control loan-interest inpt" value="10" type="text" id="loan_interest" name="loan_interest">
+                                                    </div>
+                                                    <button type="button" class="btn btn-secondary btn-eligibilty inpt" onclick="checkEmiEligibility();">
+                                                        Check Eligibility
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="eligibility-info" style="">
+                                                <h4><i class="fa fa-check btn-success"></i> You are eligible for this loan amount.</h4>
+                                                <div class="cur-loan">You can avail loan of <i class="fa fa-inr" aria-hidden="true"></i> <b class="amt">20.00 L</b> At EMI <i class="fa fa-inr" aria-hidden="true"></i> <b class="emi">19300</b></div>
+                                                <div class="max-loan">Maximum loan can avail <i class="fa fa-inr" aria-hidden="true"></i> <b class="amt">23.32 L</b> At EMI <i class="fa fa-inr" aria-hidden="true"></i> <b class="emi">22500</b></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>	
+        </section>
+        
+        <!-- contact -->
+        <div class="connect">
+            <div class="container">
+                <div class="address-details">
+                    <div class="sub-footer d-none d-sm-block">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>© 2020 by aakar realties. all rights reserved. | the project has been registered via maharera registration number p52100018758 is available on the<br>website <a href="https:// maharera.mahaonline.gov.in under registered projects." target="_blank">https:// maharera.mahaonline.gov.in under registered projects.</a> | Designed by: <a href="https://www.optimist.co.in/" target="_blank">Optimist Brand Design LLP.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer d-block d-sm-none">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>© 2020 by aakar realties. all rights reserved. The project has been registered via maharera registration number p52100018758 is available on the website <a href="https:// maharera.mahaonline.gov.in under registered projects." target="_blank">https:// maharera.mahaonline.gov.in under registered projects.</a><br> Designed by: <a href="https://www.optimist.co.in/" target="_blank">Optimist Brand Design LLP.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+        <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
+        <script src="assets/bootstrap/jquery-3.5.1.min.js"></script>
+        <script src="assets/bootstrap/bootstrap.min.js"></script>
+       
+        <!-- <script src="assets/calculator/jquery.easytabs.min.js"></script>
+        <script src="assets/tab/jquery.tabs.min.js"></script> -->
+    </body>
+</html>

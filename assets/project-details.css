@@ -1,0 +1,1255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.banner-caption h1{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 1.1;
+    color: #fff;
+}
+.img-project-details{
+    width: 20%;
+    margin-top: 5%;
+}
+.sapphire-logo{
+    margin-top: 0;
+}
+.img-prj-details-bnr-hr {
+    border-left: 1px solid #707070;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 2%;
+    height: 17%;
+}
+.img-book-now-hr{
+    position: absolute;
+    border-left: 1px solid #707070;
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 15%;
+}
+.banner-btn {
+    margin-top: 8%;
+}
+.banner-caption h4 {
+    font-family: 'Heebo';
+    font-weight: 300;
+}
+/* about-project */
+.about-project{
+    margin-top: 9%;
+}
+.about-project-caption-1 hr{
+    width: 28%;
+    border-left: 1px solid #707070;
+}
+.about-project-details{
+    margin-left: 20%;
+}
+.about-project-caption-2 p{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #989898;
+}
+.about-project-details p, .brochure-btn{
+    margin-top: 12%;
+}
+.img-prj-details{
+    width: 42%;
+}
+.img-prj-details-1{
+    width: 54%;
+}
+.img-right-arrow{
+    width: 4%;
+}
+.brochure-btn{
+    margin-left: 18%;
+}
+.btn-project-1 {
+    padding: 15px 20px;
+    background-color: #2D2D2D;
+    position: relative;
+    z-index: 99;
+}
+.img-about-prj-hr{
+    position: absolute;
+    left: 13%;
+    margin-top: 1%;
+    height: 98%;
+}
+.img-maharera {
+    width: 82%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+/* highlights */
+.highlights{
+    margin-top: 8%;
+}
+.projects-highlights{
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.projects-highlights p{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #BCBCBC;
+}
+.projects-highlights hr {
+    border: 0.3px solid #989898;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    width: 70%;
+}   
+.img-pink-block{
+    width: 6px;
+}
+.img-highlight-prj-hr{
+    border-left: 1px solid #707070;
+    position: absolute;
+    left: 5.4%;
+    margin-top: 2%;
+    height: 90%;
+}
+.highlights-caption-1 hr, .amenities-caption-1 hr, .specification-caption-1 hr, .gallery-caption-1 hr{
+    width: 10%;
+}
+/* amenity */
+.amenities{
+    margin-top: 8%;
+}
+.amenities-caption-2{
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.amenities-caption-2 li{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #989898;
+    list-style: none;
+}
+/* specifications */
+.specification{
+    margin-top: 8%;
+}
+.specification-types{
+    padding-top: 10%;
+    padding-left: 31%;
+}
+.specification-types h6{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 10%;
+    color: #BCBCBC;
+}
+.specification-types li{
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: 16px;
+    color: #BCBCBC;
+    list-style: none;
+}
+/* gallery */
+.gallery{
+    margin-top: 8%;
+}
+.btn-floor-plan{
+    padding: 15px 20px;
+    margin-left: 8%;
+}
+.no-gutter{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/*
+    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+    code customized by Azmind.com
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* LG */
+@media (min-width: 991px) {
+    /* show 4th item */
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+} 
+.gallery-slider{
+    margin-top: 5%;
+}
+.coral-overlay{
+    display: none;
+}
+.coral-1:hover .coral-overlay, .coral-2:hover .coral-overlay, .coral-3:hover .coral-overlay, .coral-4:hover .coral-overlay, .coral-5:hover .coral-overlay, .coral-6:hover .coral-overlay, .coral-7:hover .coral-overlay, .coral-8:hover .coral-overlay, .coral-9:hover .coral-overlay{
+    display: block;
+    transform: 0.3s ease;
+    cursor: pointer;
+}
+.coral-1:hover .img-coral, .coral-2:hover .img-coral, .coral-3:hover .img-coral, .coral-4:hover .img-coral, .coral-5:hover .img-coral, .coral-6:hover .img-coral, .coral-7:hover .img-coral, .coral-8:hover .img-coral, .coral-9:hover .img-coral{
+    display: none;
+    transform: 0.3s ease;
+}
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color:#f2f2f2;
+    color: white;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-modal{
+      width: 100%;
+  }
+  /* contact */
+  
+  .address h5, .address-1 h5{
+    font-family: 'Heebo';
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+  }
+  .address-1 h5{
+      margin-top: 10%;
+  }
+  .social-address{
+      display: flex;
+      margin-top: 5%;
+      width: 100%;
+  }
+  .img-social {
+    width: 20%;
+}
+.img-social-1 {
+    width: 25%;
+}
+  /* sapphire */
+  .img-project-details-1{
+      width: 15%;
+      margin-top: 8%;
+  }
+
+/* responsive */
+@media (max-width: 2560px){
+    .banner-caption h1 {
+        font-size: 82px;
+        margin-bottom: 8%;
+    }
+    .banner-btn {
+        margin-top: 15%;
+    }
+    .img-book-now-hr{
+        margin-top: 1%;
+        margin-left: 2%;
+        height: 18%;
+    }
+    .img-prj-details-bnr-hr {
+        margin-top: -1%;
+        margin-left: 2%;
+        height: 18%;
+    }
+    .about-project-caption-1 hr {
+        width: 36%;
+    }
+    .about-project-caption-2 p {
+        font-size: 20px;
+    }
+    .img-prj-details {
+        width: 46%;
+    }
+    .img-prj-details-1 {
+        width: 60%;
+    }
+    .about-project-details p, .brochure-btn {
+        margin-top: 21%;
+    }
+    .highlights, .amenities, .gallery {
+        margin-top: 5%;
+    }
+    .highlights-caption-1 hr{
+        width: 15%;
+    }
+    .projects-highlights p {
+        font-size: 26px;
+    }
+    .amenities-caption-2 li {
+        font-size: 26px;
+    }
+    .specification-caption-1 hr{
+        width: 16%;
+    }
+    .specification-types h6 {
+        font-size: 32px;
+    }
+    .specification-types li {
+        font-size: 22px;
+    }
+    .img-connect-hr {
+        width: 22%;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .contact-form {
+        padding-left: 15%;
+    }
+    .address h5, .address-1 h5 {
+        font-size: 20px;
+    }
+    .gutters{
+        padding-left: 0;
+    }
+    .contact-form {
+        padding-left: 20%;
+    }
+}
+@media (max-width: 1920px){
+    .banner-caption h1 {
+        font-size: 62px;
+        margin-bottom: 2%;
+    }
+    .img-prj-details-bnr-hr {
+        margin-top: -1%;
+        margin-left: 3%;
+        height: 20%;
+    }
+    .img-book-now-hr {
+        margin-top: 1%;
+        margin-left: 3%;
+        height: 17%;
+    }
+    .about-project-caption-2 p {
+        font-size: 18px;
+    }
+    .img-prj-details {
+        width: 44%;
+    }
+    .img-prj-details-1 {
+        width: 58%;
+    }
+    .about-project-details p, .brochure-btn {
+        margin-top: 16%;
+    }
+    .brochure-btn {
+        margin-left: 5%;
+    }
+    .btn-project-1{
+        padding: 20px 15px;
+    }
+    .about-project-caption-1 hr {
+        width: 33%;
+    }
+    .highlights-caption-1 hr {
+        width: 13%;
+    }
+    .projects-highlights p {
+        font-size: 24px;
+    }
+    .amenities-caption-2 li {
+        font-size: 24px;
+    }
+    .specification-caption-1 hr {
+        width: 15%;
+    }
+    .specification-types h6 {
+        font-size: 28px;
+    }
+    .specification-types li {
+        font-size: 16px;
+    }
+    .img-connect-hr {
+        width: 29%;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    .address h5, .address-1 h5 {
+        font-size: 18px;
+    }
+    .projects-highlights hr {
+        width: 85%;
+    }
+}
+@media (max-width: 1600px){
+    .banner-caption h1 {
+        font-size: 58px;
+        margin-bottom: 0%;
+    }
+    .img-prj-details-bnr-hr {
+        margin-top: -1%;
+        margin-left: 3%;
+        height: 23%;
+    }
+    .img-book-now-hr {
+        margin-top: 1%;
+        margin-left: 3%;
+        height: 15%;
+    }
+    .about-project-caption-2 p {
+        font-size: 17px;
+    }
+    .about-project-caption-1 hr {
+        width: 30%;
+    }
+    .img-prj-details {
+        width: 42%;
+    }
+    .img-prj-details-1 {
+        width: 56%;
+    }
+    .about-project-details p, .brochure-btn {
+        margin-top: 13%;
+    }
+    .highlights, .amenities, .gallery {
+        margin-top: 7%;
+    }
+    .highlights-caption-1 hr {
+        width: 12%;
+    }
+    .projects-highlights p {
+        font-size: 21px;
+    }
+    .projects-highlights hr {
+        width: 75%;
+    }
+    .amenities-caption-2 li {
+        font-size: 22px;
+    }
+    .specification-types h6 {
+        font-size: 26px;
+    }
+    .specification-caption-1 hr {
+        width: 13%;
+    }
+    .gallery-caption-1 hr {
+        width: 7%;
+    }
+    .connect-caption-1 hr {
+        width: 58%;
+    }
+    .img-connect-hr {
+        width: 34%;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+}
+@media (max-width: 1440px){
+    .banner-caption h1 {
+        font-size: 56px;
+        margin-bottom: 0%;
+    }
+    .img-prj-details-bnr-hr {
+        margin-top: -1%;
+        margin-left: 4%;
+        height: 16%;
+    }
+    .banner-btn {
+        margin-top: 10%;
+    }
+    .img-book-now-hr {
+        margin-top: 1%;
+        margin-left: 4%;
+        height: 12%;
+    }
+    .about-project {
+        margin-top: 8%;
+    }
+    .address h5, .address-1 h5 {
+        font-size: 16px;
+    }
+    .img-connect-hr {
+        width: 37%;
+        margin-left: 3%;
+        margin-top: 7%;
+    }
+}
+@media (max-width: 1366px){
+    .about-project-caption-1 hr {
+        width: 26%;
+    }
+    .about-project-caption-2 p {
+        font-size: 16px;
+    }
+    .about-project-details p, .brochure-btn {
+        margin-top: 11%;
+    }
+    .highlights-caption-1 hr {
+        width: 11%;
+    }
+    .projects-highlights p {
+        font-size: 18px;
+    }
+    .projects-highlights hr {
+        width: 70%;
+    }
+    .amenities-caption-1 hr{
+        width: 8%
+    }
+    .amenities-caption-2 li {
+        font-size: 20px;
+    }
+    .specification-caption-1 hr {
+        width: 12%;
+    }
+    .specification-types h6 {
+        font-size: 22px;
+    }
+    .connect-caption-1 hr {
+        width: 51%;
+    }
+}
+@media (max-width: 1280px){
+    .banner-btn {
+        margin-top: 8%;
+    }
+    .img-prj-details-bnr-hr {
+        margin-top: -2%;
+        margin-left: 4%;
+        height: 16%;
+    }
+    .about-project-caption-1 hr {
+        width: 24%;
+    }
+    .highlights-caption-1 hr {
+        width: 10%;
+    }
+    .amenities-caption-1 hr {
+        width: 7%;
+    }
+    .amenities-caption-2 li {
+        font-size: 18px;
+    }
+    .specification-caption-1 hr {
+        width: 10%;
+    }
+    .specification-types h6 {
+        font-size: 20px;
+    }
+    .gallery-caption-1 hr {
+        width: 6%;
+    }
+    .connect-caption-1 hr {
+        width: 45%;
+    }
+    .img-connect-hr {
+        width: 40%;
+        margin-left: 3%;
+        margin-top: 7%;
+    }
+    .contact-form {
+        padding-left: 12%;
+    }
+}
+@media (max-width: 1240px){
+    .banner-caption h1 {
+        font-size: 52px;
+        margin-bottom: 0%;
+    }
+    .indigo-info p{
+        padding-bottom: 62%;
+    }
+    .sapphire-para p:last-child{
+        padding-bottom: 27%;
+    }
+    
+}
+@media (max-width: 1152px){
+    .img-prj-details-bnr-hr {
+        margin-top: -2%;
+        margin-left: 5%;
+        height: 16%;
+    }
+    .img-about-prj-hr {
+        position: absolute;
+        left: 18%;
+        margin-top: 1%;
+        height: 96%;
+    }
+    .img-book-now-hr {
+        margin-top: 1%;
+        margin-left: 5%;
+        height: 12%;
+    }
+    .img-highlight-prj-hr {
+        left: 7.8%;
+        margin-top: 2%;
+        height: 90%;
+    }
+    .about-project-details {
+        margin-left: 25%;
+    }
+    .about-project-details p, .brochure-btn {
+        margin-top: 23%;
+    }
+    .projects-highlights p {
+        font-size: 16px;
+    }
+    .amenities-caption-2 li {
+        font-size: 16px;
+    }
+    .specification-types h6 {
+        font-size: 18px;
+    }
+    .specification-types li {
+        font-size: 15px;
+    }
+    .img-connect-hr {
+        width: 39%;
+        margin-left: 5%;
+        margin-top: 7%;
+    }
+    .indigo-info p {
+        padding-bottom: 84%;
+    }
+    .sapphire-para p:last-child {
+        padding-bottom: 33%;
+    }
+    .sapphire-para p:last-child {
+        padding-bottom: 70%;
+    }
+}
+@media (max-width: 1024px) and (max-height: 1366px){
+    .banner-caption h1 {
+        font-size: 48px;
+        margin-bottom: 0%;
+    }
+    .img-project-details {
+        width: 20%;
+        margin-top: 3%;
+    }
+    .img-about-prj-hr {
+        left: 16.5%;
+        margin-top: 1%;
+        height: 96%;
+    }
+    .img-highlight-prj-hr {
+        left: 6.8%;
+        margin-top: 2%;
+        height: 87%;
+    }
+    .img-connect-hr {
+        width: 45%;
+        margin-left: 5%;
+        margin-top: 7%;
+    }
+}
+@media (max-width: 1024px){
+
+}
+@media (max-width: 800px){
+    .banner-caption h1 {
+        font-size: 42px;
+        margin-bottom: 0%;
+    }
+    .about-project-caption-1 hr {
+        width: 35%;
+    }
+    .img-about-prj-hr {
+        left: 18.5%;
+        margin-top: 1%;
+        height: 96%;
+    }
+    .about-project-details {
+        margin-left: 25%;
+        margin-top: 32%;
+    }
+    .about-project-details p, .brochure-btn {
+        margin-top: 43%;
+    }
+    .img-prj-details {
+        width: 70%;
+    }
+    .img-prj-details-1 {
+        width: 90%;
+    }
+    .highlights-caption-1 hr {
+        width: 14%;
+    }
+    .img-highlight-prj-hr {
+        left: 8%;
+        margin-top: 2%;
+        height: 87%;
+    }
+    .projects-highlights hr {
+        width: 95%;
+    }
+    .amenities-caption-1 hr {
+        width: 10%;
+    }
+    .gallery-caption-1 hr {
+        width: 9%;
+    }
+    .connect-caption-1 hr {
+        width: 70%;
+    }
+    .indigo-info p {
+        padding-bottom: 155%;
+    }
+    .highlights, .amenities, .gallery {
+        margin-top: 11%;
+    }
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 480px){
+    .img-banner {
+        position: relative;
+        width: 100%;
+    }
+    .img-project-details{
+        display: none;
+    }
+    .banner-caption {
+        padding-top: 10%;
+        padding-left: 30%;
+    }
+    .banner-caption h1 {
+        font-size: 36px;
+        margin-bottom: 0%;
+    }
+    .banner-btn {
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+    .img-prj-details-bnr-hr {
+        margin-top: -30%;
+        margin-left: 8%;
+        height: 28%;
+    }
+    .about-project-caption-1 hr {
+        width: 49%;
+    }
+    .img-book-now-hr{
+        display: none;
+    }
+    .mobile-view{
+        display: flex;
+    }
+    .about-project-details p{
+        margin-top: 15%;   
+    }
+    .about-project-details p:first-child{
+        margin-top: 0%;   
+    }
+    .about-project-caption-1{
+        width: 50%;
+    }
+    .about-project-details{
+        width: 50%;
+    }
+    .about-project-details {
+        margin-left: 00%;
+        margin-top: 0%;
+    }
+    .img-prj-details {
+        width: 68%;
+    }
+    .img-prj-details-1 {
+        width: 90%;
+    }
+    .about-project-caption-2{
+        padding-left: 22%;
+        padding-top: 5%;
+    }
+    .about-project-caption-2 p {
+        font-size: 18px;
+    }
+    .brochure-btn {
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    .img-maharera {
+        margin-left: 0%;
+    }
+    .img-about-prj-hr {
+        left: 10.5%;
+        margin-top: -31%;
+        height: 114%;
+    }
+    .highlights, .amenities, .gallery {
+        margin-top: 14%;
+    }
+    .highlights-caption-1 hr {
+        width: 26%;
+    }
+    .projects-highlights {
+        padding-left: 30%;
+        padding-top: 5%;
+    }
+    .projects-highlights p {
+        font-size: 18px;
+    }
+    .img-highlight-prj-hr {
+        left: 10.5%;
+        margin-top: 4%;
+        height: 82%;
+    }
+    .spec-hr{
+        height: 94%;
+    }
+    .amenities-caption-1 hr {
+        width: 20%;
+    }
+    .amenities-caption-2 {
+        padding-left: 30%;
+        padding-top: 5%;
+    }
+    .amenities-caption-2 li {
+        font-size: 18px;
+    }
+    .specification-caption-1 hr {
+        width: 29%;
+    }
+    .specification-types {
+        padding-top: 0%;
+        padding-left: 30%;
+    }
+    .specification-types h6 {
+        font-size: 21px;
+    }
+    .specification-types li {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .gallery-caption-1 hr {
+        width: 17%;
+    }
+    .social-address {
+        display: block;
+    }
+    .img-social {
+        width: 15%;
+    }
+    .img-social-1 {
+        width: 18%;
+    }
+    .connect-caption-1 hr {
+        width: 29%;
+    }
+    .contact-form {
+        padding-left: 30%;
+    }
+    .img-connect-hr {
+        width: 22%;
+        margin-left: 4%;
+        margin-top: 18%;
+        height: 85%;
+    }
+    .indigo-info p {
+        padding-bottom: 0%;
+    }
+    .indigo-prj-hr{
+        height: 133%;
+    }
+    .sapphire-para p:last-child {
+        padding-bottom: 0%;
+    }
+    .sapphire-prj-hr{
+        height: 117%;
+    } 
+    .no-gutter {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 18%;
+    }
+    .modal-content {
+        width: 90%;
+        margin-top: 30%;
+    }
+    .ind-bnnr-hr{
+        margin-top: -36%;
+    }
+    .sphre-bnnr-hr{
+        margin-top: -45%;
+        height: 30%;
+    }
+}
+@media (max-width: 414px){
+    .banner-caption h1 {
+        font-size: 30px;
+        margin-bottom: 0%;
+    }
+    .img-prj-details-bnr-hr {
+        margin-top: -30%;
+        margin-left: 10%;
+        height: 28%;
+    }
+    .img-prj-details {
+        width: 62%;
+    }
+    .img-prj-details-1 {
+        width: 84%;
+    }
+    .about-project-caption-2 p {
+        font-size: 16px;
+    }
+    .img-about-prj-hr {
+        left: 13.5%;
+        margin-top: -25%;
+        height: 112%;
+    }
+    .img-highlight-prj-hr {
+        left: 13.5%;
+        margin-top: 4%;
+        height: 82%;
+    }
+    .highlights, .amenities, .gallery {
+        margin-top: 18%;
+    }
+    .projects-highlights p, .amenities-caption-2 li, .specification-types li {
+        font-size: 17px;
+    }
+    .spec-hr {
+        height: 94%;
+    }
+    .indigo-prj-hr{
+        height: 125%;
+    }
+    .sapphire-prj-hr{
+        height: 114%;
+    } 
+    .ind-bnnr-hr{
+        margin-top: -36%;
+    }
+    .sphre-bnnr-hr{
+        margin-top: -45%;
+        height: 30%;
+    }
+}
+@media (max-width: 412px){
+    .banner-caption h1 {
+        font-size: 28px;
+        margin-bottom: 0%;
+    }
+    .ind-bnnr-hr {
+        margin-top: -29%;
+    }
+}
+@media (max-width: 384px){
+    .banner-caption h1 {
+        font-size: 26px;
+        margin-bottom: 0%;
+    }
+    .about-project-caption-2 p, .projects-highlights p, .amenities-caption-2 li, .specification-types li {
+        font-size: 15px;
+    }
+    .specification-types h6 {
+        font-size: 18px;
+    }
+    .address h5, .address-1 h5 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px){
+    .banner-caption h1 {
+        font-size: 24px;
+        margin-bottom: 0%;
+    }
+    .about-project-caption-2 p, .projects-highlights p, .amenities-caption-2 li, .specification-types li {
+        font-size: 14px;
+    }
+    .btn-project-1 {
+        padding: 15px 10px;
+    }
+}
+@media (max-width: 360px){
+    .img-prj-details-bnr-hr {
+        margin-top: -30%;
+        margin-left: 11%;
+        height: 28%;
+    }
+    .about-project-caption-2 p, .projects-highlights p, .amenities-caption-2 li, .specification-types li {
+        font-size: 14px;
+    }
+    .img-about-prj-hr {
+        left: 15%;
+        margin-top: -25%;
+        height: 112%;
+    }
+    .btn-project-1 {
+        padding: 15px 10px;
+    }
+    .img-highlight-prj-hr {
+        left: 15%;
+        margin-top: 4%;
+        height: 82%;
+    }
+    .spec-hr {
+        height: 94%;
+    }
+    .address h5, .address-1 h5 {
+        font-size: 12px;
+    }
+    .indigo-prj-hr{
+        height: 126%;
+    }
+    .sapphire-prj-hr {
+        height: 114%;
+    }
+    .ind-bnnr-hr {
+        margin-top: -25%;
+        height: 26%;
+    }
+    .ind-bnnr-hr {
+        margin-top: -27%;
+        height: 26%;
+    }
+    .sphre-bnnr-hr{
+        margin-top: -42%;
+        height: 30%;
+    }
+}
+@media (max-width: 320px){
+    .banner-caption h1 {
+        font-size: 22px;
+        margin-bottom: 0%;
+    }
+    .about-project-caption-2 p, .projects-highlights p, .amenities-caption-2 li, .specification-types li {
+        font-size: 12px;
+    }
+    .btn-project-1 {
+        padding: 15px 5px;
+    }
+    .address h5, .address-1 h5 {
+        font-size: 11px;
+    }
+}

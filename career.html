@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aakar Realities</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="font/stylesheet.css">
+        <link rel="stylesheet" href="assets/custom.css">
+        <link rel="stylesheet" href="assets/responsive.css">
+        <link rel="icon" href="images/homepage/favicon.png">
+    </head>
+    <body>
+        <!-- navigation -->
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/homepage/logo.png" class="img-logo" alt="logo"></a>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about-us.html">About Us</a>
+                        <a href="project.html">Projects</a>
+                        <a href="calculator.html">Smart Cal</a>
+                        <a href="career.html">Career</a>
+                        <a href="contact.html">Contact Us</a>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/homepage/menu.svg" class="img-menu" alt="menu"></span>
+                </div>
+                </div>
+            </nav>
+        </div>
+        <!-- career -->
+        <div class="carrier">
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <div class="application-heading">
+                        APPLICATION FORM
+                        </div>
+                        
+                        <form action="career/lite_process.php" method="post" class="career-form">
+                                <!-- Form Name -->
+                                <div class="row">
+                                    <div class="col-sm-6 col-12 mob-gutter">
+                                        <input type="text" placeholder="Your Name" name="userName" class="frm-box" required />
+                                    </div>
+                        
+                                    <div class="col-sm-6 col-12 mob-gutter">
+                                        <input type="email" placeholder="Your Email" name="email_address" class="frm-box" required/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-12 mob-gutter">
+                                        <input type="text" placeholder="Your Phone No." name="phone" class="frm-box" required />
+                                    </div>
+                        
+                                    <div class="col-sm-6 col-12 mob-gutter">
+                                        <input type="text" placeholder="Address" name="address" class="frm-box" required/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 col-12 mob-gutter">
+                                        <select name="appliedforpost" class="frm-box">
+                                            <option value="" hidden>Applied For Post:</option>
+                                            <option>Sales Manager </option>
+                                            <option>Engineer </option>
+                                            <option>Accountant</option>
+                                            <option>Admin</option>
+                                        </select>
+                                    </div>
+                                
+                                    <div class="col-sm-6 col-12 mob-gutter">
+                                        <input type="text" placeholder="Technical Qualification" name="qualification" class="frm-box" required/>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-12 col-12 mob-gutter">
+                                        <textarea placeholder="Your Message" name="subject" cols="" rows="5" class="frm-box" required></textarea>
+                                    </div>
+                                    <div class="col-sm-12 col-12 mob-gutter">
+                                        <div class="career-lft-btn">
+                                            <button class="btn-smt career-btn" type="submit">SEND MESSAGE &nbsp; <img src="images/homepage/right-arrow.svg" class="submit-arrow" alt="arrow"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+               <!-- contact -->
+        <div class="connect">
+            <div class="container">
+                <div class="address-details">
+                    <div class="sub-footer d-none d-sm-block">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>© 2020 by aakar realties. all rights reserved. | the project has been registered via maharera registration number p52100018758 is available on the<br>website <a href="https:// maharera.mahaonline.gov.in under registered projects." target="_blank">https:// maharera.mahaonline.gov.in under registered projects.</a> | Designed by: <a href="https://www.optimist.co.in/" target="_blank">Optimist Brand Design LLP.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer d-block d-sm-none">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>© 2020 by aakar realties. all rights reserved. The project has been registered via maharera registration number p52100018758 is available on the website <a href="https:// maharera.mahaonline.gov.in under registered projects." target="_blank">https:// maharera.mahaonline.gov.in under registered projects.</a><br> Designed by: <a href="https://www.optimist.co.in/" target="_blank">Optimist Brand Design LLP.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+        <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
+        <script src="assets/bootstrap/jquery-3.5.1.min.js"></script>
+        <script src="assets/bootstrap/bootstrap.min.js"></script>
+    </body>
+</html>

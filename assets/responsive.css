@@ -1,0 +1,1118 @@
+@media (max-width: 2560px){
+    .banner-caption h1 {
+        font-size: 90px;
+    }
+    .banner-caption h4 {
+        font-size: 64px;
+    }
+    .banner-caption p {
+        font-size: 30px;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 22px;
+        padding: 20px 40px;
+    }
+    .img-banner {
+        width: 56%;
+    }
+    .banner-caption {
+        padding-top: 18%;
+    }
+    .img-banner-hr {
+        height: 50%;
+        margin-top: 1%;
+        margin-left: 2.5%;
+    }
+    .about {
+        margin-top: 15%;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 22px;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 50px;
+    }
+    .about-caption-1 hr{
+        width: 80%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 54px;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 42px;
+    }
+    .about-caption-2 p {
+        font-size: 18px;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 30%;
+    }
+    .img-about-hr {
+        height: 112%;
+        margin-top: 3%;
+        margin-left: 22.55%;
+    }
+    .projects{
+        margin-top: 5%;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 30px;
+    }
+    .project-caption-1 hr{
+        width: 72%;
+    }
+    .connect {
+        margin-top: 5%;
+    }
+    .connect-caption-1 hr{
+        width: 70%;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 28px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 20px;
+    }
+    .social-media p, .map p {
+        font-size: 22px;
+        padding-top: 8%;
+    }
+    .form-control{
+        font-size: 1.5rem;
+    }
+    .img-connect-hr {
+        width: 92%;
+        margin-left: 10%;
+        margin-top: -11%;
+    }
+    .contact-form{
+        padding-left: 10%;
+    }
+    .btn-smt {
+        font-size: 22px;
+        letter-spacing: 2px;
+        padding: 20px 30px;
+    }
+}
+@media (max-width: 1920px){
+    .img-banner {
+        width: 58%;
+    }
+    .banner-caption h1 {
+        font-size: 84px;
+    }
+    .banner-caption h4 {
+        font-size: 60px;
+    }
+    .banner-caption p {
+        font-size: 26px;
+    }
+    .banner-caption {
+        padding-top: 14%;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 20px;
+        padding: 20px 40px;
+    }
+    .img-banner-hr {
+        height: 30%;
+        margin-top: 1%;
+        margin-left: 2.5%;
+    }
+    .about {
+        margin-top: 11%;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 20px;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 46px;
+    }
+    .about-caption-1 hr {
+        width: 68%;
+    }
+    .project-caption-1 hr {
+        width: 58%;
+    }
+    .connect-caption-1 hr {
+        width: 64%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 50px;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 40px;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 46%;
+    }
+    .img-about-hr {
+        height: 111%;
+        margin-top: 3%;
+        margin-left: 17.55%;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 26px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 18px;
+    }
+    .social-media p, .map p {
+        font-size: 20px;
+        padding-top: 8%;
+    }
+}
+@media (max-width: 1600px){
+    .img-banner {
+        width: 59%;
+    }
+    .banner-caption {
+        padding-top: 12%;
+    }
+    .banner-caption h1 {
+        font-size: 76px;
+    }
+    .banner-caption h4 {
+        font-size: 54px;
+    }
+    .banner-caption p {
+        font-size: 24px;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 18px;
+        padding: 18px 35px;
+    }
+    .img-banner-hr {
+        height: 26%;
+        margin-top: 1%;
+        margin-left: 3.3%;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 18px;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 44px;
+    }
+    .about-caption-1 hr {
+        width: 62%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 48px;
+    }
+    .img-about-hr {
+        height: 104%;
+        margin-top: 3%;
+        margin-left: 18%;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 38px;
+    }
+    .about-caption-2 p {
+        font-size: 17px;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 49%;
+    }
+    .projects {
+        margin-top: 2%;
+    }
+    .btn-smt {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 20px 30px;
+    }
+    .connect {
+        margin-top: 7%;
+    }
+}
+@media (max-width: 1440px){
+    .img-banner {
+        width: 60%;
+    }
+    .banner-caption h1 {
+        font-size: 70px;
+    }
+    .banner-caption h4 {
+        font-size: 48px;
+    }
+    .banner-caption p {
+        font-size: 23px;
+    }
+    .banner-caption {
+        padding-top: 12%;
+    }
+    .img-banner-hr {
+        height: 25%;
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    .img-about-hr {
+        height: 97%;
+        margin-top: 3%;
+        margin-left: 20%;
+    }
+    .projects {
+        margin-top: 0%;
+    }
+    .form-control {
+        font-size: 1.2rem;
+    }
+    .img-connect-hr {
+        width: 86%;
+        margin-left: 10%;
+        margin-top: -11%;
+    }
+    .contact-form {
+        padding-left: 5%;
+    }
+
+}
+@media (max-width: 1366px){
+    .img-banner {
+        width: 61%;
+    }
+    .banner-caption h1 {
+        font-size: 66px;
+    }
+    .banner-caption h4 {
+        font-size: 46px;
+    }
+    .banner-caption p {
+        font-size: 22px;
+    }
+    .banner-caption {
+        padding-top: 9%;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 16px;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 40px;
+    }
+    .about-caption-1 hr {
+        width: 56%;
+    }
+    .project-caption-1 hr {
+        width: 48%;
+    }
+    .connect-caption-1 hr {
+        width: 53%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 46px;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 36px;
+    }
+    .about-caption-2 p {
+        font-size: 16px;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 24px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 16px;
+    }
+    .social-media p, .map p {
+        font-size: 17px;
+        padding-top: 8%;
+    }
+    .btn-smt {
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 18px 26px;
+    }
+}
+@media (max-width: 1280px){
+    .img-banner {
+        width: 62%;
+    }
+    .banner-caption h1 {
+        font-size: 64px;
+    }
+    .banner-caption h4 {
+        font-size: 44px;
+    }
+    .banner-caption p {
+        font-size: 21px;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 14px;
+        padding: 15px 28px;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 14px;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 38px;
+    }
+    .about-caption-1 hr {
+        width: 50%;
+    }
+    .project-caption-1 hr {
+        width: 42%;
+    }
+    .connect-caption-1 hr {
+        width: 46%;
+    }
+    .img-about-hr {
+        height: 94%;
+        margin-top: 3%;
+        margin-left: 18%;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 50%;
+    }
+    .btn-smt {
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 15px 20px;
+    }
+}
+@media (max-width: 1240px){
+    .about-bg {
+        bottom: 0%;
+        top: 51%;
+    }
+}
+@media (max-width: 1152px){
+    .img-menu {
+        margin-left: 98%;
+    }
+    .banner-caption h1 {
+        font-size: 56px;
+    }
+    .banner-caption h4 {
+        font-size: 40px;
+    }
+    .banner-caption p {
+        font-size: 19px;
+    }   
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 13px;
+        padding: 15px 28px;
+    }
+    .img-banner-hr {
+        height: 25%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 13px;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 36px;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 40px;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 32px;
+    }
+    .about-caption-2 p {
+        font-size: 14px;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 48%;
+    }
+    .img-about-hr {
+        height: 94%;
+        margin-top: 3%;
+        margin-left: 24%;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 24px;
+    }
+    .form-control {
+        font-size: 1rem;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 22px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 15px;
+    }
+    .social-media p, .map p {
+        font-size: 16px;
+        padding-top: 8%;
+    }
+    .img-connect-hr {
+        width: 88%;
+        margin-left: 12%;
+        margin-top: -11%;
+    }
+    .btn-smt {
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding: 18px 26px;
+    }
+    .sub-footer p, .sub-footer p a {
+        font-size: 13px;
+    }
+}
+@media (max-width: 1024px) and (max-height: 1366px){
+    .img-menu {
+        margin-left: 110%;
+    }
+    .banner-caption h1 {
+        font-size: 52px;
+    }
+    .banner-caption h4 {
+        font-size: 36px;
+    }
+    .banner-caption p {
+        font-size: 18px;
+    }
+    .banner-btn {
+        margin-top: 5%;
+    }
+    .img-banner-hr {
+        height: 25%;
+        margin-top: 1%;
+        margin-left: 6%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 38px;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 50%;
+    }
+    .img-about-hr {
+        height: 90%;
+        margin-top: 3%;
+        margin-left: 27%;
+    }
+    .img-connect-hr {
+        width: 90%;
+        margin-left: 12%;
+        margin-top: -11%;
+    }
+} 
+@media (max-width: 1024px){
+    .sub-footer p, .sub-footer p a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px){
+    .collapse {
+        display: contents;
+    }
+    .img-menu{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .banner-caption h1 {
+        font-size: 44px;
+    }
+    .banner-caption h4 {
+        font-size: 32px;
+    }
+    .banner-caption p {
+        font-size: 16px;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 14px;
+        padding: 15px 28px;
+    }
+    .img-banner-hr {
+        height: 20%;
+        margin-top: 2%;
+        margin-left: 6%;
+    }
+    .about-caption-1 hr {
+        width: 74%;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 32px;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 32px;
+    }
+    .img-about {
+        width: 30%;
+        margin-bottom: 15%;
+    }
+    .img-about-1 {
+        width: 44%;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 34px;
+    }
+    .about-caption-2 p {
+        font-size: 18px;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 67%;
+    }
+    .img-about-hr {
+        height: 90%;
+        margin-top: 3%;
+        margin-left: 26%;
+    }
+    .project-caption-1 hr {
+        width: 66%;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 18px;
+    }
+    .project-details h3 {
+        font-size: 18px;
+    }
+    .project-details p {
+        font-size: 11px;
+    }
+    .btn-prj-1 {
+        margin-top: 9.5%;
+    }
+    .connect-caption-1 hr {
+        width: 74%;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 20px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 14px;
+    }
+    .social-media p, .map p {
+        font-size: 15px;
+        padding-top: 8%;
+    }
+    .img-connect-hr{
+        display: none;
+    }
+    .address-caption-1 {
+        margin-left: 2%;
+    }
+    .btn-smt {
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 15px 20px;
+    }
+    .sub-footer p, .sub-footer p a {
+        font-size: 9px;
+    }
+}
+@media (max-width: 768px){
+    .about-bg {
+        bottom: 0%;
+        top: 68%;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 13px;
+        padding: 12px 20px;
+    }
+}
+@media (max-width: 480px){
+    .navigation {
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    .img-logo {
+        width: 54%;
+    }
+    .img-menu {
+        width: 80%;
+        margin-left: -110%;
+    }
+    .img-banner {
+        width: 60%;
+    }
+    .banner-caption h1 {
+        font-size: 52px;
+        line-height: 0.9;
+    }
+    .banner-caption p {
+        font-size: 16px;
+        padding-right: 70%;
+    }
+    .banner-btn {
+        margin-top: 25%;
+    }
+    .about {
+        margin-top: 74%;
+    }
+    .banner-caption {
+        padding-top: 25%;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    .img-banner-hr {
+        height: 30%;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 16px;
+        margin-bottom: 1%;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 34px;
+        margin-top: 2%;
+    }
+    .about-caption-1 hr {
+        width: 32%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 22px;
+        padding-right: 50%;
+    }
+
+    .about-caption-2 h2, .application-heading {
+        font-size: 26px;
+        padding-right: 20%;
+    }
+    .application-heading {
+        padding-right: 0% !important;
+    }
+    .about-caption-2{
+        padding-top: 10%;
+        padding-left: 30%;
+    }
+    .img-about {
+        width: 45%;
+        margin-bottom: 15%;
+    }
+    .img-about-1 {
+        width: 60%;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 26px;
+    }
+    .about-caption-2 p {
+        font-size: 15px;
+    }
+    .img-about-hr {
+        height: 100%;
+        margin-top: -5%;
+        margin-left: -18%;
+    }
+    .about-bg {
+        bottom: 0%;
+        top: 80%;
+    }
+    .project-caption-1 hr {
+        width: 28%;
+    }
+    .project-caption-2, .connect-caption-2{
+        position: relative;
+        padding-left: 30%;
+        padding-top: 7%;
+        padding-bottom: 4%;
+    }
+    .mob-project-hr {
+        position: absolute;
+        border-left: 1px solid #707070;
+        height: 80%;
+        margin-left: -19.4%;
+        margin-top: 0%;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 26px;
+        padding-right: 20%;
+        line-height: 1.3;
+    }
+    .project-details h3 {
+        font-size: 24px;
+    }
+    .project-details p {
+        font-size: 21px;
+    }
+    .btn-prj, .btn-prj-1 {
+        font-size: 16px;
+        padding: 14px 30px;
+        margin-top: 5%;
+    }
+    .project-details{
+        margin-top: 10%;
+    }
+    .connect-caption-1 hr {
+        width: 30%;
+    }
+    .address-caption-1, .contact-form{
+        padding-left: 30%;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 26px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 18px;
+    }
+    .social-media p, .map p {
+        font-size: 21px;
+        padding-top: 8%;
+    }
+    .img-social {
+        width: 15%;
+    }
+    .img-social-1 {
+        width: 20%;
+    }
+    .contact-form{
+        margin-top: 10%;
+    }
+    .gutters{
+        padding-left: 0%;
+    }
+    .img-connect-hr {
+        width: 100%;
+        margin-left: -36%;
+        margin-top: -57%;
+        height: 255%;
+    }
+    .sub-footer p, .sub-footer p a {
+        font-size: 14px;
+    }
+    .btn-smt {
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 12px 20px;
+    }
+}
+@media (max-width: 414px){
+    .img-menu {
+        width: 80%;
+        margin-left: -80%;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 12px;
+        padding: 15px 12px;
+    }
+    .banner-caption h1 {
+        font-size: 48px;
+    }
+    .banner-caption h4 {
+        font-size: 28px;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 22px;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 15px;
+        margin-bottom: 1%;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 32px;
+        margin-top: 2%;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 22px;
+        padding-right: 20%;
+        line-height: 1.3;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 24px;
+        padding-right: 20%;
+    }
+    .project-details h3 {
+        font-size: 23px;
+    }
+    .project-details p {
+        font-size: 20px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 16px;
+    }
+    .social-media p, .map p {
+        font-size: 20px;
+        padding-top: 8%;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 22px;
+    }
+    .img-connect-hr {
+        height: 259%;
+    }
+}
+@media (max-width: 412px){
+    .img-menu {
+        width: 80%;
+        margin-left: -76%;
+    }
+    .banner-caption h1 {
+        font-size: 44px;
+    }
+    .banner-caption h4 {
+        font-size: 26px;
+    }
+    .banner-caption p {
+        font-size: 15px;
+        padding-right: 70%;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 11px;
+        padding: 15px 12px;
+    }
+    .project-details p {
+        font-size: 18px;
+    }
+    .btn-prj, .btn-prj-1 {
+        font-size: 15px;
+        padding: 12px 20px;
+        margin-top: 5%;
+    }
+}
+@media (max-width: 393px){
+    .img-connect-hr {
+        height: 252%;
+    }
+    .img-menu {
+        width: 80%;
+        margin-left: -68%;
+    }
+}
+@media (max-width: 384px){
+    .img-menu {
+        width: 72%;
+        margin-left: -45%;
+    }
+    .img-banner {
+        width: 55%;
+    }
+    .banner-caption h1 {
+        font-size: 42px;
+    }
+    .banner-caption h4 {
+        font-size: 24px;
+    }
+    .banner-caption p {
+        font-size: 14px;
+        padding-right: 61%;
+    }
+    .about {
+        margin-top: 50%;
+    }
+    .img-banner-hr {
+        height: 20%;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 13px;
+        margin-bottom: 1%;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 30px;
+        margin-top: 2%;
+    }
+    .about-caption-2 h2{
+        margin-bottom: 20%;
+    }
+    .img-about {
+        width: 40%;
+        margin-bottom: 15%;
+    }
+    .img-about-1 {
+        width: 54%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 22px;
+        padding-right: 20%;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 20px;
+    }
+    .about-caption-2 p {
+        font-size: 12px;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 18px;
+        padding-right: 20%;
+        line-height: 1.3;
+    }
+    .project-details h3 {
+        font-size: 21px;
+    }
+    .project-details p {
+        font-size: 16px;
+    }
+    .btn-prj, .btn-prj-1 {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-top: 5%;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 20px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 14px;
+    }
+    .social-media p, .map p {
+        font-size: 18px;
+        padding-top: 8%;
+    }
+    .btn-smt {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 12px 15px;
+    }
+    .img-connect-hr {
+        height: 267%;
+    }
+    .sub-footer p, .sub-footer p a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 375px){
+
+}
+@media (max-width: 360px){
+    .navbar-brand {
+        margin-right: -1rem;
+    }
+    .img-menu {
+        width: 70%;
+        margin-left: -40%;
+    }
+    .banner-caption h1 {
+        font-size: 40px;
+    }
+    .banner-caption h4 {
+        font-size: 22px;
+    }
+    .banner-caption p {
+        font-size: 13px;
+        padding-right: 61%;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 12px;
+        margin-bottom: 1%;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 28px;
+        margin-top: 2%;
+    }
+    .about {
+        margin-top: 59%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 20px;
+        padding-right: 20%;
+    }
+    .about-caption-2 h5, .thank-you h6 {
+        font-size: 18px;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 16px;
+        padding-right: 20%;
+        line-height: 1.3;
+    }
+    .project-details h3 {
+        font-size: 19px;
+    }
+    .project-details p {
+        font-size: 15px;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 18px;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 12px;
+    }
+    .social-media p, .map p {
+        font-size: 16px;
+        padding-top: 8%;
+    }
+    .btn-smt {
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 12px 15px;
+    }
+    .img-connect-hr {
+        height: 274%;
+    }
+    .sub-footer p, .sub-footer p a {
+        font-size: 11px;
+    }
+}
+@media (max-width: 320px){
+    .sidenav a {
+        font-size: 18px;
+    }
+    .img-logo {
+        width: 48%;
+    }
+    .navbar-brand {
+        margin-right: -4rem;
+    }
+    .img-menu {
+        width: 60%;
+        margin-left: -20%;
+    }
+    .img-banner {
+        width: 54%;
+    }
+    .banner-caption h1 {
+        font-size: 35px;
+    }
+    .banner-caption h4 {
+        font-size: 20px;
+    }
+    .banner-caption p {
+        font-size: 12px;
+        padding-right: 61%;
+    }
+    .btn-project, .btn-knowmore, .btn-project-1, .btn-floor-plan {
+        font-size: 10px;
+        padding: 12px 10px;
+    }
+    .about-caption-1 h6, .project-caption-1 h6, .connect-caption-1 h6, .vision-mission-caption-1 h6, .about-project-caption-1 h6, .highlights-caption-1 h6, .amenities-caption-1 h6, .specification-caption-1 h6, .gallery-caption-1 h6 {
+        font-size: 11px;
+        margin-bottom: 1%;
+    }
+    .about-caption-1 h3, .project-caption-1 h3, .connect-caption-1 h3, .vision-mission-caption-1 h3, .about-project-caption-1 h3, .highlights-caption-1 h3, .amenities-caption-1 h3, .specification-caption-1 h3, .gallery-caption-1 h3 {
+        font-size: 26px;
+        margin-top: 2%;
+    }
+    .about-caption-2 h2, .application-heading {
+        font-size: 18px;
+        padding-right: 20%;
+    }
+    .about-caption-2 p {
+        font-size: 11px;
+    }
+    .project-caption-2 h2, .connect-caption-2 h2 {
+        font-size: 15px;
+        padding-right: 20%;
+        line-height: 1.3;
+    }
+    .project-details h3 {
+        font-size: 18px;
+    }
+    .project-details p {
+        font-size: 14px;
+    }
+    .btn-prj, .btn-prj-1 {
+        font-size: 12px;
+        padding: 10px 20px;
+        margin-top: 5%;
+    }
+    .address h4, .contact-form h4 {
+        font-size: 16px;
+    }
+    .social-media p, .map p {
+        font-size: 14px;
+        padding-top: 8%;
+    }
+    .address p, .address p a, .address-1 p, .address-1 p a {
+        font-size: 11px;
+    }
+    .sub-footer p, .sub-footer p a {
+        font-size: 10px;
+    }
+    .img-connect-hr {
+        height: 280%;
+    }
+}

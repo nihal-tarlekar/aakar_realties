@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aakar Realities</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="font/stylesheet.css">
+        <link rel="stylesheet" href="assets/custom.css">
+        <link rel="stylesheet" href="assets/responsive.css">
+        <link rel="stylesheet" href="assets/project-details.css">
+        <link rel="stylesheet" href="assets/pop-up.css">
+        <link rel="icon" href="images/homepage/favicon.png">
+        <script src="assets/bootstrap/jquery-3.5.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+        
+                //select the POPUP FRAME and show it
+                $("#popup").hide().fadeIn(1000);
+                
+                //close the POPUP if the button with id="close" is clicked
+                $("#close").on("click", function (e) {
+                    e.preventDefault();
+                    $("#popup").fadeOut(1000);
+                });
+                
+                });
+                $(document).ready(function () {
+        
+                //select the POPUP FRAME and show it
+                $("#popup-1").hide().fadeIn(1000);
+                
+                //close the POPUP if the button with id="close" is clicked
+                $("#close-1").on("click", function (e) {
+                    e.preventDefault();
+                    $("#popup-1").fadeOut(1000);
+                });
+                
+                });
+        </script>
+    </head>
+    <body>
+        <!-- popup -->
+        <div id="popup">
+            <div class="pop-up-window">
+                <h3>Disclaimer</h3>
+                <p>The Contents including brochures and marketing collateral displayed/provided on this website are solely for informational purposes and is not intended to constitute an offer or solicitation as this website is under updation/reconstruction. It is Artistic impression/Schematic representation of the project shown on this site and is indicative of how the unit can be used. No furniture/s or accessories shown in the visuals are provided with the unit/tenement/apartment. This web site material does not constitutes an offer and / or contract of any type between the Developer/Promoter/Owner and the recipient, all intending purchaser/s in this project shall be governed by the terms and conditions envisaged under The Real Estate (Regulation And Development) Act 2016. Nothing on the website should be misconstrued as advertising, marketing, booking, selling or an offer for sale or invitation to purchase a unit in any project by the company/firm. The company/firm is not responsible for the consequences of any action taken by the viewer relying on such material/information on this website. Please contact our Sales Team at <strong><a href="tel:+91 9922 8888 91">+91 9922 8888 91</a>  / <a href="mailto:info@aakarrealties.com">info@aakarrealties.com</a></strong> for the updated sales and marketing information and collaterals.</p>
+            </div>
+			<button id="close"><img src="images/projects/close.svg" class="img-close" alt="close"></button>
+        </div>
+        <div id="popup-1">
+            <div class="pop-up-window-1">
+               <img src="images/projects/sapphire-towers/pop-up-banner.jpg" class="img-popup-banner" alt="banner">
+            </div>
+			<button id="close-1"><img src="images/projects/close.svg" class="img-close" alt="close"></button>
+	    </div>
+        <!-- navigation -->
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/homepage/logo.png" class="img-logo" alt="logo"></a>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about-us.html">About Us</a>
+                        <a href="project.html">Projects</a>
+                        <a href="calculator.html">Smart Cal</a>
+                        <a href="career.html">Career</a>
+                        <a href="contact.html">Contact Us</a>
+                      </div>
+                      <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/homepage/menu.svg" class="img-menu" alt="menu"></span>
+                </div>
+                </div>
+            </nav>
+        </div>
+        <!-- banner -->
+        <div class="banner">
+            <img src="images/projects/sapphire-towers/banner.jpg" class="img-banner d-none d-sm-block" alt="banner image">
+            <img src="images/projects/sapphire-towers/mob-banner.jpg" class="img-banner d-block d-sm-none" alt="banner image">
+            <div class="container">
+                <div class="banner-caption d-none d-sm-block">
+                    <h1>Own Premium-ness</h1>
+                    <h4>Discover the luxury of Baner, <br>now at Chovisawadi</h4>
+                    <img src="images/projects/sapphire-towers/sapphire-towers-logo.png" class="img-project-details sapphire-logo" alt="logo">
+                </div>
+                <div class="banner-caption d-block d-sm-none">
+                    <h1>Own<br>Premium-ness</h1>
+                    <h4>Discover the luxury of Baner, now at Chovisawadi</h4>
+                </div>
+                <hr class="img-prj-details-bnr-hr sphre-bnnr-hr">
+                <div class="banner-btn">
+                    <a href="#connect"><button class="btn-project">BOOK NOW &nbsp; <img src="images/homepage/right-arrow.svg" class="img-right-arrow" alt="arrow"></button></a>
+                </div>
+                <hr class="img-book-now-hr">
+            </div>
+        </div>
+        <!-- about -->
+        <div class="about-project">
+            <div class="container">
+                <div class="about-project-caption">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                            <div class="about-proj-info d-none d-sm-block">
+                                <div class="about-project-caption-1">
+                                    <h6>SUITE FOR YOU</h6>
+                                    <hr>
+                                    <h3>About Sapphire Towers</h3>
+                                </div>
+                                <img src="images/projects/about-prj-hr.svg" class="img-about-prj-hr" alt="about line">
+                               <div class="about-project-details">
+                                   <p><img src="images/projects/coral-park/flats.svg" class="img-prj-details" alt="flats"></p>
+                                   <p><img src="images/projects/coral-park/floor.svg" class="img-prj-details" alt="flats"></p>
+                                   <p><img src="images/projects/coral-park/posessions.svg" class="img-prj-details-1" alt="flats"></p>
+                                   <div class="brochure-btn">
+                                       <a href="pdf/sapphire-towers/Sapphire Tower E-Brochure.pdf" target="_blank"><button class="btn-project-1">DOWNLOAD BROCHURE &nbsp; <img src="images/homepage/right-arrow.svg" class="img-right-arrow" alt="arrow"></button></a>
+                                       <img src="images/projects/coral-park/maharera.svg" class="img-maharera" alt="maharera">
+                                   </div>   
+                               </div>
+                            </div>
+                            <div class="about-proj-info d-block d-sm-none">
+                                <div class="mobile-view">
+                                    <div class="about-project-caption-1">
+                                        <h6>SUITE FOR YOU</h6>
+                                        <hr>
+                                        <h3>Sapphire Towers</h3>
+                                    </div>
+                                   <div class="about-project-details">
+                                       <p><img src="images/projects/coral-park/flats.svg" class="img-prj-details" alt="flats"></p>
+                                       <p><img src="images/projects/coral-park/floor.svg" class="img-prj-details" alt="flats"></p>
+                                       <p><img src="images/projects/coral-park/posessions.svg" class="img-prj-details-1" alt="flats"></p>   
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                            <img src="images/projects/sapphire-towers/sapphire-prj-hr.svg" class="img-about-prj-hr sapphire-prj-hr d-block d-sm-none" alt="about line">
+                            <div class="about-project-caption-2 sapphire-para">
+                                <p>Sapphire Towers is a combination of reliable architecture, thoughtfully designed layout, convenient location, and a price that’s just right. It’s a home that uplifts the quality of life and makes the journey a comfortable and pleasant experience.</p>
+
+                                <p>At Aakar Realties, we build homes that deliver comfort, security, and convenience. We have a customer-centric approach from start to finish, providing homes that come with a promise of satisfaction. Our focus is always to provide our customers with the best homes at the best pricing.</p>
+
+                                <p>Express your life to the fullest with your own beautiful home. A home that brings the premium feel of a Baner residence to Chovisawadi. A home that gives you security, freedom, and lasting friendships. A home that offers an advantageous location and thoughtful architecture. Welcome to a home you will be proud to call ‘my humble abode.’</p>
+                            </div> 
+                            <div class="brochure-btn d-block d-sm-none">
+                                <a href="pdf/sapphire-towers/Sapphire Tower E-Brochure.pdf" target="_blank"><button class="btn-project-1">DOWNLOAD BROCHURE &nbsp; <img src="images/homepage/right-arrow.svg" class="img-right-arrow" alt="arrow"></button></a>
+                                <img src="images/projects/coral-park/maharera.svg" class="img-maharera" alt="maharera">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- highlights -->
+        <div class="highlights">
+            <div class="container">
+                <div class="highlights-caption">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="highlights-caption-1">
+                                <h6>SUITE FOR YOU</h6>
+                                <hr>
+                                <h3>Highlights Of The Project</h3>
+                            </div>
+                           <hr class="img-highlight-prj-hr">
+                           <div class="projects-highlights">
+                               <p><img src="images/projects/pink-block.svg" class="img-pink-block" alt="block"> &nbsp; &nbsp; Homes with smart spaces having no passages</p><hr>
+                               <p><img src="images/projects/pink-block.svg" class="img-pink-block" alt="block"> &nbsp; &nbsp; Timely possession guaranteed</p><hr>
+                               <p><img src="images/projects/pink-block.svg" class="img-pink-block" alt="block"> &nbsp; &nbsp; Bulk buying benefits on common household products for all customers</p><hr>
+                               <p><img src="images/projects/pink-block.svg" class="img-pink-block" alt="block"> &nbsp; &nbsp; Five years warranty</p><hr>
+                               <p><img src="images/projects/pink-block.svg" class="img-pink-block" alt="block"> &nbsp; &nbsp; Kitchen trolley in every apartment</p><hr>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- amenities -->
+        <div class="amenities">
+            <div class="container">
+                <div class="amenities-caption">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="amenities-caption-1">
+                                <h6>AMENITIES</h6>
+                                <hr>
+                                <h3>For A Better Life</h3>
+                            </div>
+                           <hr class="img-highlight-prj-hr">
+                           <div class="amenities-caption-2">
+                               <div class="row">
+                                   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <ul>
+                                        <li>Convenient stores for daily needs</li>
+                                        <li>Radcliffe CBSE school</li>
+                                        <li>Multi-Purpose party lawn</li>
+                                        <li>Senior citizen sit out</li>
+                                    </ul>
+                               </div>
+                               <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <ul>
+                                        <li>Children’s play area</li>
+                                        <li>CCTV cameras in common area</li>
+                                        <li>Fire fighting system</li>
+                                        <li>Dry terrace for every kitchen</li>
+                                        <li>Solar water heating</li>
+                                    </ul>
+                                </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- specification -->
+        <div class="specification">
+            <div class="container">
+                <div class="specification-caption">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="specification-caption-1">
+                                <h6>SPECIFICATIONS</h6>
+                                <hr>
+                                <h3>Comfort Your Home</h3>
+                            </div>
+                           <hr class="img-highlight-prj-hr spec-hr">
+                           <div class="specification-caption-2">
+                               <div class="row">
+                                   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                       <div class="specification-types">
+                                           <h6>STRUCTURE</h6>
+                                           <ul>
+                                                <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; RCC framed structure</li>
+                                                <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Earthquake resistant</li>
+                                           </ul>
+                                           <h6>FLOORING</h6>
+                                           <ul>
+                                                <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Vitrified tiles in bedrooms, living room & kitchen</li>
+                                                <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Anti-Skid floor tiles in washroom, toilet & terrace</li>
+                                                <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Dado tiles in washroom & above kitchen platform</li>
+                                           </ul>
+                                           <h6>BEDROOM</h6>
+                                           <ul>
+                                               <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Both side laminated flush doors</li>
+                                               <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; AC provision in master bedroom</li>
+                                               <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Sufficient electrical points as per electrical layout</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                                   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <div class="specification-types">
+                                        <h6>PAINT</h6>
+                                        <ul>
+                                             <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Internal OBD paint</li>
+                                             <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Quality external paint</li>
+                                        </ul>
+                                        <h6>TERRACE</h6>
+                                        <ul>
+                                             <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; MS railing</li>
+                                             <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Anti-Skid flooring</li>
+                                        </ul>
+                                        <h6>MODULAR KITCHEN</h6>
+                                        <ul>
+                                            <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Granite platform with stainless steel sink</li>
+                                            <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Provision for water purifier</li>
+                                            <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Glazed tiles above the platform</li>
+                                            <li><img src="images/projects/specification-block.svg" class="img-spec-block" alt="block"> &nbsp; Sufficient electrical points as per electrical layout</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery -->
+        <div class="gallery">
+            <div class="container">
+                <div class="gallery-caption">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="gallery-caption-1">
+                                <h6>GALLERY</h6>
+                                <hr>
+                                <h3>Our Homes Are Crafted And Not Just Created</h3>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="gallery-slider">
+                <!-- Top content -->
+                <div class="top-content">
+                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active no-gutter">
+                                <div class="panel-thumbnail coral-1">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-1.jpg" alt="slide 1">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(1)" src="images/projects/sapphire-towers/slider-1-overlay.jpg" alt="slide 1">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-2">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-2.jpg" alt="slide 2">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(2)"src="images/projects/sapphire-towers/slider-2-overlay.jpg" alt="slide 2">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-3">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-3.jpg" alt="slide 3">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(3)"src="images/projects/sapphire-towers/slider-3-overlay.jpg" alt="slide 3">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-4">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-4.jpg" alt="slide 4">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(4)" src="images/projects/sapphire-towers/slider-4-overlay.jpg" alt="slide 4">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-5">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-5.jpg" alt="slide 5">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(5)" src="images/projects/sapphire-towers/slider-5-overlay.jpg" alt="slide 5">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-6">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-6.jpg" alt="slide 6">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(6)" src="images/projects/sapphire-towers/slider-6-overlay.jpg" alt="slide 6">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-7">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-7.jpg" alt="slide 7">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(7)" src="images/projects/sapphire-towers/slider-7-overlay.jpg" alt="slide 7">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-8">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-8.jpg" alt="slide 8">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(8)" src="images/projects/sapphire-towers/slider-8-overlay.jpg" alt="slide 8">
+                                </div>
+                            </div>
+                            <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 no-gutter">
+                                <div class="panel-thumbnail coral-8">
+                                    <img class="img-fluid img-coral" src="images/projects/sapphire-towers/slider-9.jpg" alt="slide 8">
+                                    <img class="img-fluid coral-overlay" onclick="openModal();currentSlide(9)" src="images/projects/sapphire-towers/slider-9-overlay.jpg" alt="slide 9">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                            <img src="images/homepage/left-arrow.svg" class="slider-arrow" alt="arrow">
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                            <img src="images/homepage/right-arrow.svg" class="slider-arrow" alt="arrow">
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+        
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/1.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/2.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/3.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/4.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/5.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/6.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/7.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/8.jpg" class="img-modal">
+            </div>
+            <div class="mySlides">
+                <img src="images/projects/sapphire-towers/9.jpg" class="img-modal">
+            </div>
+        
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div id="connect" class="connect">
+            <div class="container">
+                <img src="images/homepage/connect-hr.svg" class="img-connect-hr d-none d-sm-block" alt="border">
+                <img src="images/homepage/mob-footer-hr.svg" class="img-connect-hr d-block d-sm-none" alt="border">
+                <div class="connect-caption">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                            <div class="connect-caption-1">
+                                <h6>SCHEDULE A VISIT</h6>
+                                <hr>
+                                <h3>Contact</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                            <div class="connect-caption-2 d-none d-sm-block">
+                                <h2>Want to know more about our projects? Feel free to<br>connect with us.</h2>
+                            </div>
+                            <div class="connect-caption-2 d-block d-sm-none">
+                                <h2>Want to know more about our projects? Feel free to connect with us.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="address-details">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="address-caption-1">
+                                <div class="address">
+                                    <h5>CORPORATE ADDRESS</h5>
+                                    <h4>Aakar Realties</h4>
+                                    <p>LG Level, Behind Renault Showroom<br>Thermax Chowk, Chinchwad, Pune<br>Maharashtra 411019</p>
+                                    <p><a href="tel:+91 9922 8888 91">+91 9922 8888 91</a> &nbsp; &vert; &nbsp; <a href="mailto:info@aakarrealties.com">info@aakarrealties.com</a></p>
+                                </div>
+                                <div class="address-1">
+                                    <h5>SITE ADDRESS</h5>
+                                    <p>SR.No 40, Opposite Radcliffe School,<br>Chovisawadi, Off Vishrantwadi-Aalandi Road,<br>Charholi, PCMC.</p>
+                                    <p><a href="tel:+91 9922 8888 91">+91 9922 8888 91</a> &nbsp; &vert; &nbsp; <a href="mailto:info@aakarrealties.com">info@aakarrealties.com</a></p>
+                                </div>
+                                <div class="social-address">
+                                    <div class="social-media">
+                                        <p>digital connect</p>
+                                        <a href="https://www.facebook.com/AAKAR-Realties-1948612425185776/?modal=admin_todo_tour" target="_blank"><img src="images/homepage/facebook.svg" class="img-social" alt="social icon"></a>&nbsp;
+                                        <a href="" target="_blank"><img src="images/homepage/youtube.svg" class="img-social-1" alt="social icon"></a>&nbsp;
+                                        <a href="https://www.instagram.com/aakar_realties/" target="_blank"><img src="images/homepage/instagram.svg" class="img-social" alt="social icon"></a>
+                                    </div>
+                                    <div class="map">
+                                        <p>find us on google map</p>
+                                        <a href="https://goo.gl/maps/2pcj7TmpEXSzYQgA8" target="_blank"><img src="images/homepage/map.svg" class="img-social" alt="social icon"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contact-form">
+                                <h4>ENQUIRY FORM</h4>
+                                <form action="lite_process.php" method="post" class="connect-form">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input type="text" placeholder="Your Name" name="userName" class="form-control" required />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <input type="email" placeholder="Email ID" name="email_address" class="form-control form-control-1" required/>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
+                                        <input type="tel" placeholder="Phone No." name="mobile" class="form-control form-control-1" required/>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 lft-sp">
+                                        <textarea placeholder="Message" name="message" cols="" rows="5" class="form-control" required></textarea>
+                                    </div>
+                                    <div class="submit-btn">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <button class="btn-smt" type="submit">SEND MESSAGE &nbsp; <img src="images/homepage/right-arrow.svg" class="submit-arrow" alt="arrow"></button>	
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer d-none d-sm-block">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>© 2020 by aakar realties. all rights reserved. | the project has been registered via maharera registration number p52100018758 is available on the<br>website <a href="https:// maharera.mahaonline.gov.in under registered projects." target="_blank">https:// maharera.mahaonline.gov.in under registered projects.</a> | Designed by: <a href="https://www.optimist.co.in/" target="_blank">Optimist Brand Design LLP.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-footer d-block d-sm-none">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p>© 2020 by aakar realties. all rights reserved. The project has been registered via maharera registration number p52100018758 is available on the website <a href="https:// maharera.mahaonline.gov.in under registered projects." target="_blank">https:// maharera.mahaonline.gov.in under registered projects.</a><br> Designed by: <a href="https://www.optimist.co.in/" target="_blank">Optimist Brand Design LLP.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+        <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
+        <script src="assets/bootstrap/jquery-3.5.1.min.js"></script>
+        <script src="assets/bootstrap/bootstrap.min.js"></script>
+        <script src="assets/slider.js"></script>
+        <script src="assets/lightbox.js"></script>
+    </body>
+</html>
